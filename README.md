@@ -4,8 +4,6 @@ Regularly updating this online portfolio! Includes current/past projects, and va
 
 Based on a Minimal Jekyll theme for GitHub Pages.
 
-<img src="images/demo.gif?raw=true"/>
-
 
 ___
 
