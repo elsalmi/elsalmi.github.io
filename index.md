@@ -5,15 +5,15 @@
 ### Category Name 1 
 
 [MusiGAN](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/MusiGAN.JPG?raw=true"/>
 
 ---
 [LendingClub](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/LC-Logo-Official-min-1024x418.png?raw=true"/>
 
 ---
 [CopBot](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/imageCarousel.imageformat.carousel.688897195.jpg?raw=true"/>
 
 ---
 
