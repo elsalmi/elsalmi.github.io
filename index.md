@@ -2,17 +2,17 @@
 
 ---
 
-### Category Name 1 
+### Current Projects
 
-[MusiGAN](/sample_page)
+[MusiGAN](https://github.com/elsalmi/MusiGAN)
 <img src="images/MusiGAN.JPG?raw=true"/>
 
 ---
-[LendingClub](/pdf/sample_presentation.pdf)
+[LendingClub](https://github.com/elsalmi/LendingClub)
 <img src="images/LC-Logo-Official-min-1024x418.png?raw=true"/>
 
 ---
-[CopBot](http://example.com/)
+[CopBot](https://salmi99.wixsite.com/copbot)
 <img src="images/imageCarousel.imageformat.carousel.688897195.jpg?raw=true"/>
 
 ---
@@ -31,5 +31,3 @@
 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
