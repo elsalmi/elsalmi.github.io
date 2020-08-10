@@ -4,6 +4,11 @@
 
 ## Machine Learning
 
+### [CaseLaw](https://github.com/elsalmi/CaseLaw)
+<img src="images/harvardcap?raw=true"/>
+
+---
+
 ### [MusiGAN](https://github.com/elsalmi/MusiGAN)
 <img src="images/MusiGAN.JPG?raw=true"/>
 
