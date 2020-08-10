@@ -28,8 +28,8 @@
 
 ## Music
 
+### - [Bandcamp](https://msalmi.bandcamp.com/releases)
 ### - [Soundcloud](https://soundcloud.com/salmisalmi)
-### - [Bandcamp] 
 
 ---
 
