@@ -5,7 +5,7 @@
 ## Machine Learning
 
 ### [CaseLaw](https://github.com/elsalmi/CaseLaw)
-<img src="images/harvardcap?raw=true"/>
+<img src="images/harvardcap.jpg?raw=true"/>
 
 ---
 
