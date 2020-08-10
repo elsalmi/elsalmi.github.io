@@ -24,25 +24,4 @@
 ### [CopBot](https://salmi99.wixsite.com/copbot)
 <img src="images/imageCarousel.imageformat.carousel.688897195.jpg?raw=true"/>
 
----
-
-## Music
-
-### - [Bandcamp](https://msalmi.bandcamp.com/releases)
-### - [Soundcloud](https://soundcloud.com/salmisalmi)
-
----
-
-## Film
-
-### - [Mother Mother]
-
----
-
-## Photography
-
-
----
-
-
 
