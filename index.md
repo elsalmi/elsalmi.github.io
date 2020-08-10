@@ -4,6 +4,10 @@
 
 ## Machine Learning
 
+### [Instrument Classification](https://github.com/elsalmi/Instrument-Classificiation-)
+<img src="images/instrument_classification.png?raw=true"/>
+
+---
 ### [CaseLaw](https://github.com/elsalmi/CaseLaw)
 <img src="images/harvardcap.jpg?raw=true"/>
 
