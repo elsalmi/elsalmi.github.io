@@ -4,10 +4,9 @@
 
 ## Machine Learning
 
-<<<<<<< HEAD
 
 ### [Qiskit Hub](https://github.com/elsalmi/qiskit)
-<img src="images/qiskit.png?raw=true"/>
+<img src="images/qiskit.jpg?raw=true"/>
 
 ---
 ### [Instrument Classification](https://github.com/elsalmi/Instrument-Classificiation-)
@@ -18,8 +17,6 @@
 <img src="images/harvardcap.jpg?raw=true"/>
 
 ---
->>>>>>> 9b36f1b11bb79c1b269712fd76e3fd7426044c2c
-
 ### [MusiGAN](https://github.com/elsalmi/MusiGAN)
 <img src="images/MusiGAN.JPG?raw=true"/>
 
