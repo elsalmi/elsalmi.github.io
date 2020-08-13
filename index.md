@@ -4,6 +4,9 @@
 
 ## Machine Learning
 
+### [Qiskit Hub](https://github.com/elsalmi/qiskit)
+<img src="images/qiskit.png?raw=true"/>
+
 ### [MusiGAN](https://github.com/elsalmi/MusiGAN)
 <img src="images/MusiGAN.JPG?raw=true"/>
 
