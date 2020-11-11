@@ -1,12 +1,14 @@
+<head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QQ3B779PFH"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y2RTGLHY2K"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-QQ3B779PFH');
+  gtag('config', 'G-Y2RTGLHY2K');
 </script>
+</head>
 
 # Portfolio
 
