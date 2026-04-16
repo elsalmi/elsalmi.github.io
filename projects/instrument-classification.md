@@ -50,6 +50,15 @@ confusions, and measurable next thresholds.
 The project is not finished, but it now has a clear baseline, known gaps, and a
 practical path from notebook experiment to a small demo.
 
+## Output sample
+
+![Random-forest confusion matrix after randomized search](/images/instrument-rf-confusion-matrix-tuned.png)
+
+This confusion matrix is pulled from the randomized-search run in
+`4.SupervisedLearning.ipynb`. The strongest diagonal classes include `string`
+(`0.88`) and `vocal` (`0.61`), while `bass` is still frequently confused with
+`mallet` (`0.24` in that row).
+
 ## Links
 
 - [Source repo](https://github.com/elsalmi/Instrument-Classificiation-)
@@ -74,7 +83,7 @@ practical path from notebook experiment to a small demo.
 
 - Simplified the page language and standardized section order.
 - Kept measured baseline numbers visible (`54.20%` and `57.57%`).
-- Limited Links to working repo/report/notebook resources.
+- Added a concrete confusion-matrix output sample and kept links to working resources.
 
 ## What I’d improve next
 

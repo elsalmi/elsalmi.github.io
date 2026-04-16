@@ -37,6 +37,12 @@ This project aimed to surface those tradeoffs rather than hide them behind singl
 - Reported reweighing snapshot: training mean outcome difference moved from `-0.017565` to `0.000000`; test mean outcome difference moved from `-0.019698` to `-0.002036`.
 - Reported random forest precision was `0.913286`, with the project framed around high-precision ranked loan selection rather than automated lending deployment.
 
+## Output sample
+
+![Random forest probability density by class](/images/lendingclub-density-fully-paid-vs-chargedoff.png)
+
+This density plot is a direct notebook output. It shows why ranking by predicted repayment probability can separate many `Fully Paid` loans from `Charged Off` loans, while still leaving overlap that requires threshold and fairness checks.
+
 ## Links
 
 - [Model card](https://github.com/elsalmi/LendingClub/blob/master/MODEL_CARD.md): intended use, metric snapshot, fairness approach, and limitations.
@@ -54,7 +60,7 @@ This project aimed to surface those tradeoffs rather than hide them behind singl
 
 - Tightened the page into a clear problem -> method -> results narrative.
 - Kept measurable fairness outputs directly in the Results section.
-- Linked only to real supporting materials: model card, report, data notes, and source notebook.
+- Added a concrete model-output figure and linked only to real supporting materials.
 
 ## What I’d improve next
 

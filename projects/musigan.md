@@ -51,6 +51,19 @@ The main lesson from this project is practical: model architecture matters, but
 symbolic music generation also depends heavily on preprocessing, rhythm
 representation, and how the samples are judged by ear.
 
+## Output sample
+
+The repo currently includes generated MIDI outputs from all three model tracks:
+
+| Model | Sample output |
+| --- | --- |
+| LSTM | [`lstm_midi.mid`](https://github.com/elsalmi/MusiGAN/blob/master/Output%20midi/LSTM%20midi/lstm_midi.mid) |
+| GRU | [`gru_midi.mid`](https://github.com/elsalmi/MusiGAN/blob/master/Output%20midi/GRU%20midi/gru_midi.mid) |
+| GAN | [`gan_final.mid`](https://github.com/elsalmi/MusiGAN/blob/master/Output%20midi/GAN%20midi/gan_final.mid) |
+
+These are raw generated artifacts for technical review. Public reuse still
+depends on the provenance checks listed in Data notes.
+
 ## Links
 
 - [Source repo](https://github.com/elsalmi/MusiGAN)
@@ -72,7 +85,7 @@ representation, and how the samples are judged by ear.
 
 - Rewrote the page in plain, public-facing language.
 - Consolidated all working resources under one `Links` section.
-- Kept concrete project details: model families, data scale, and next evaluation steps.
+- Added direct sample-output links and kept concrete project details throughout.
 
 ## What I’d improve next
 
