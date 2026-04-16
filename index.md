@@ -8,9 +8,20 @@ title: Home
 I build production-minded data science and machine learning projects with clear problem framing,
 reproducible workflows, measurable evaluation, and responsible-use notes.
 
-[Projects](#projects) | [About / Resume](#about-resume) | [Contact](#contact)
+<nav class="home-links" aria-label="Page sections">
+  <a href="#projects">Projects</a>
+  <a href="#about-resume">About / Resume</a>
+  <a href="#contact">Contact</a>
+</nav>
 
 <style>
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin: 16px 0 24px;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -67,22 +78,22 @@ These are the current portfolio anchors: three projects with case-study pages, e
 and clear next-step ownership.
 
 <div class="project-grid" role="list">
-  <a class="project-card" href="{{ '/projects/musigan' | relative_url }}" role="listitem">
-    <img src="{{ '/images/MusiGAN.JPG' | relative_url }}" alt="MusiGAN project thumbnail">
+  <a class="project-card" href="/projects/musigan" role="listitem">
+    <img src="/images/MusiGAN.JPG" alt="MusiGAN project thumbnail">
     <span class="project-card__body">
       <span class="project-card__title">MusiGAN</span>
       <span class="project-card__meta">Symbolic music generation with LSTM, GRU, and GAN tradeoffs.</span>
     </span>
   </a>
-  <a class="project-card" href="{{ '/projects/lendingclub' | relative_url }}" role="listitem">
-    <img src="{{ '/images/LC-Logo-Official-min-1024x418.png' | relative_url }}" alt="LendingClub Fairness project thumbnail">
+  <a class="project-card" href="/projects/lendingclub" role="listitem">
+    <img src="/images/LC-Logo-Official-min-1024x418.png" alt="LendingClub Fairness project thumbnail">
     <span class="project-card__body">
       <span class="project-card__title">LendingClub Fairness</span>
       <span class="project-card__meta">Credit prediction with fairness diagnostics and mitigation framing.</span>
     </span>
   </a>
-  <a class="project-card" href="{{ '/projects/instrument-classification' | relative_url }}" role="listitem">
-    <img src="{{ '/images/instrument_classification.png' | relative_url }}" alt="Instrument Classification project thumbnail">
+  <a class="project-card" href="/projects/instrument-classification" role="listitem">
+    <img src="/images/instrument_classification.png" alt="Instrument Classification project thumbnail">
     <span class="project-card__body">
       <span class="project-card__title">Instrument Classification</span>
       <span class="project-card__meta">Audio classification with model evaluation and artifact planning.</span>
