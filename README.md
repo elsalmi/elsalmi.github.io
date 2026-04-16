@@ -1,4 +1,41 @@
-## Online Portfolio Landing Page 
+# Online Portfolio
 
-Regularly updating this online portfolio! Includes current/past projects, and various non-ML related projects, stay tuned!
+This repo hosts the upgraded `elsalmi.github.io` technical portfolio site, published with GitHub Pages.
 
+## Portfolio strategy
+
+This portfolio-first upgrade focuses on senior-facing clarity and credibility:
+
+- Structured project architecture and reusable templates.
+- Concise project narratives with problem, method, artifacts, and risk framing.
+- Automated site checks via CI.
+
+## Current release
+
+### v1 (GitHub-driven portfolio upgrade)
+
+- Added structured homepage sections for Home, Projects, About/Resume, and Contact.
+- Added portfolio information architecture in `projects/index.md`.
+- Added reusable project template at `projects/_template.md`.
+- Added three case-study pages:
+  - `projects/musigan.md`
+  - `projects/lendingclub.md`
+  - `projects/instrument-classification.md`
+- Added `docs/PORTFOLIO.md` with best-work index and maturity tags.
+- Added GitHub Actions CI for markdown lint, link checks, and Jekyll build.
+- Updated site positioning and metadata in `_config.yml`.
+
+## Build and QA
+
+- Local checks:
+  - `bundle install`
+  - `bundle exec jekyll serve`
+  - `bundle exec jekyll build`
+- CI checks:
+  - markdown lint
+  - dead-link scan
+  - Jekyll build
+
+## Next phase
+
+After this foundation, the same structure will be reused for remaining repositories.
