@@ -60,13 +60,19 @@ representation, and how the samples are judged by ear.
 - [Evaluation notes](https://github.com/elsalmi/MusiGAN/blob/master/docs/README_EVAL.md)
 - [Sample report](https://github.com/elsalmi/MusiGAN/blob/master/reports/SAMPLE_REPORT.md)
 
-## Risks and Tradeoffs
+## Risks
 
 - Legacy TensorFlow/Keras/CuDNN APIs need pinning before reliable reruns.
 - Training MIDI needs source review before a public interactive demo.
 - Existing generated samples are not automatically safe to redistribute.
 - Evaluation is still listening-based until sample scores and symbolic metrics
   are added.
+
+## What changed
+
+- Rewrote the page in plain, public-facing language.
+- Consolidated all working resources under one `Links` section.
+- Kept concrete project details: model families, data scale, and next evaluation steps.
 
 ## What I’d improve next
 
@@ -75,7 +81,3 @@ representation, and how the samples are judged by ear.
 3. Score one LSTM, one GRU, and one GAN sample with listening notes.
 4. Add symbolic metrics such as repetition rate, note-density, interval
    distribution, and unique n-gram rate.
-
-## Repository
-
-- GitHub: [github.com/elsalmi/MusiGAN](https://github.com/elsalmi/MusiGAN)

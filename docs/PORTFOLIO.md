@@ -10,15 +10,15 @@ permalink: /docs/PORTFOLIO/
 
 | Project | Focus | Status | Fit |
 | --- | --- | --- | --- |
-| MusiGAN | Generative sequence modeling for MIDI | Active cleanup | High |
-| LendingClub | Fairness-aware credit modeling | Strongest page | High |
-| Instrument Classification | Audio classification and model evaluation | Active cleanup | Medium |
+| MusiGAN | Generative sequence modeling for MIDI | Clear technical narrative with known limits | High |
+| LendingClub | Fairness-aware credit modeling | Strong case study with measurable results | High |
+| Instrument Classification | Audio classification and model evaluation | Baseline established; CNN metrics to refresh | Medium |
 | Qiskit Hub | Quantum experimentation | Reference | Medium |
 | CaseLaw | Legal summarization + retrieval | Reference | Medium |
 | CopBot | Product concept and UX exploration | Archived/Reference | Low |
 
 ## Next work queue
 
-1. Add demo links and thumbnails for the strongest projects.
-2. Add a concise “what changed” changelog under each page for future updates.
-3. Begin repo cleanup passes for cleared/synthetic demo assets.
+1. Add one concrete visual or output sample to each flagship page where reuse rights are clear.
+2. Keep top-project links current as source reports and docs are updated.
+3. Apply the same concise page structure to the next two reference projects.

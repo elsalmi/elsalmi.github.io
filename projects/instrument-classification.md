@@ -61,7 +61,7 @@ practical path from notebook experiment to a small demo.
   spectrogram-style representation, return top-k class predictions with
   confidence, and show the known confusion risks.
 
-## Risks and Tradeoffs
+## Risks
 
 - The repo is notebook-first and does not yet include raw NSynth data, generated
   spectrogram folders, serialized feature tables, or model checkpoints.
@@ -70,13 +70,15 @@ practical path from notebook experiment to a small demo.
 - The demo should warn users that NSynth is isolated-note data, not arbitrary
   mixed music.
 
+## What changed
+
+- Simplified the page language and standardized section order.
+- Kept measured baseline numbers visible (`54.20%` and `57.57%`).
+- Limited Links to working repo/report/notebook resources.
+
 ## What I’d improve next
 
 1. Add a pinned environment file and deterministic feature extraction script.
 2. Include a small confusion matrix figure in `reports/`.
 3. Regenerate CNN metrics and export them as a stable report table.
 4. Define acceptance thresholds and error budgets by instrument class.
-
-## Repository
-
-- GitHub: [github.com/elsalmi/Instrument-Classificiation-](https://github.com/elsalmi/Instrument-Classificiation-)

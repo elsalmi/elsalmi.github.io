@@ -39,23 +39,25 @@ This project aimed to surface those tradeoffs rather than hide them behind singl
 
 ## Links
 
-- [Model card](https://github.com/elsalmi/LendingClub/blob/master/MODEL_CARD.md): intended use, metric snapshot, fairness framing, and limitations.
+- [Model card](https://github.com/elsalmi/LendingClub/blob/master/MODEL_CARD.md): intended use, metric snapshot, fairness approach, and limitations.
 - [Fairness report](https://github.com/elsalmi/LendingClub/blob/master/reports/FAIRNESS_REPORT.md): summary built from existing `Fairness.md` outputs.
 - [Data notes](https://github.com/elsalmi/LendingClub/blob/master/docs/DATA.md): source, local layout, ZIP3 proxy warning, and privacy constraints.
 - [Original fairness notebook export](https://github.com/elsalmi/LendingClub/blob/master/Fairness.md): traceable source for reported metric values.
 
-## Risks and Tradeoffs
+## Risks
 
 - ZIP-derived proxy groups are useful for auditing patterns, but they are noisy
   and require careful governance in any real-world setting.
 - Accuracy and fairness can move in opposite directions if thresholding and sampling assumptions are changed.
+
+## What changed
+
+- Tightened the page into a clear problem -> method -> results narrative.
+- Kept measurable fairness outputs directly in the Results section.
+- Linked only to real supporting materials: model card, report, data notes, and source notebook.
 
 ## What I’d improve next
 
 1. Replace mutable manual steps with idempotent scripts.
 2. Regenerate the fairness report from a pinned environment instead of copying notebook outputs.
 3. Add calibration and threshold-sweep plots for precision/fairness tradeoffs.
-
-## Repository
-
-- GitHub: [github.com/elsalmi/LendingClub](https://github.com/elsalmi/LendingClub)

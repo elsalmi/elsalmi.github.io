@@ -5,8 +5,7 @@ title: Home
 
 # Mohamed ElSalmi
 
-I build production-minded data science and machine learning projects with clear problem framing,
-reproducible workflows, measurable evaluation, and responsible-use notes.
+I build production-minded machine learning and data science systems with measurable outcomes, reproducible workflows, and responsible AI practices.
 
 <nav class="home-links" aria-label="Page sections">
   <a href="#projects">Projects</a>
@@ -79,23 +78,23 @@ These are the projects I want people to look at first.
 <div class="project-grid" role="list">
   <a class="project-card" href="/projects/musigan" role="listitem">
     <img src="/images/MusiGAN.JPG" alt="MusiGAN project thumbnail">
-    <span class="project-card__body">
+      <span class="project-card__body">
       <span class="project-card__title">MusiGAN</span>
-      <span class="project-card__meta">Symbolic music generation with LSTM, GRU, and GAN tradeoffs.</span>
+      <span class="project-card__meta">Generates MIDI sketches by comparing LSTM, GRU, and GAN models.</span>
     </span>
   </a>
   <a class="project-card" href="/projects/lendingclub" role="listitem">
     <img src="/images/LC-Logo-Official-min-1024x418.png" alt="LendingClub Fairness project thumbnail">
-    <span class="project-card__body">
+      <span class="project-card__body">
       <span class="project-card__title">LendingClub Fairness</span>
-      <span class="project-card__meta">Credit prediction with fairness diagnostics and mitigation framing.</span>
+      <span class="project-card__meta">Predicts loan outcomes and audits fairness across proxy groups.</span>
     </span>
   </a>
   <a class="project-card" href="/projects/instrument-classification" role="listitem">
     <img src="/images/instrument_classification.png" alt="Instrument Classification project thumbnail">
-    <span class="project-card__body">
+      <span class="project-card__body">
       <span class="project-card__title">Instrument Classification</span>
-      <span class="project-card__meta">Audio classification with measured baselines and CNN experiments.</span>
+      <span class="project-card__meta">Classifies NSynth notes with random forest baselines and CNN experiments.</span>
     </span>
   </a>
 </div>
@@ -104,7 +103,7 @@ These are the projects I want people to look at first.
 | --- | --- | --- |
 | [MusiGAN](/projects/musigan) | Symbolic music generation with LSTM/GRU/GAN tradeoffs | Active showcase |
 | [LendingClub Fairness](/projects/lendingclub) | Credit prediction with fairness diagnostics and mitigation | Active showcase |
-| [Instrument Classification](/projects/instrument-classification) | Audio instrument recognition with model evaluation framing | Active showcase |
+| [Instrument Classification](/projects/instrument-classification) | Audio instrument recognition with measured model evaluation | Active showcase |
 | [Qiskit Hub](https://github.com/elsalmi/qiskit) | Quantum computing learning projects | Curated link |
 | [CaseLaw](https://github.com/elsalmi/CaseLaw) | Legal case retrieval and summarization pipeline | Reference |
 
