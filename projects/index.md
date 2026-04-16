@@ -53,6 +53,13 @@ Legal text retrieval and summarization workflow.
 - Tags: `nlp`, `legal-tech`, `summarization`
 - Maturity: **Reference**
 
+### [CopBot](/projects/copbot)
+
+Product concept and UX exploration.
+
+- Tags: `product-concept`, `web`, `interaction-design`
+- Maturity: **Archived/Reference**
+
 ## Portfolio index
 
 See [`docs/PORTFOLIO.md`](/docs/PORTFOLIO.md) for maturity and review priority.
