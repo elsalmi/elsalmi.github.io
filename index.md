@@ -5,20 +5,90 @@ title: Home
 
 # Mohamed ElSalmi
 
-I build data and machine learning solutions that are practical, auditable, and production-minded:
-clear on business goals, explicit about assumptions, and explicit about what still needs improvement.
+I build production-minded data science and machine learning projects with clear problem framing,
+reproducible workflows, measurable evaluation, and responsible-use notes.
 
-<a id="home"></a>
-## Home
+[Projects](#projects) | [About / Resume](#about-resume) | [Contact](#contact)
 
-- [Projects](#projects)
-- [About / Resume](#about-resume)
-- [Contact](#contact)
+<style>
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin: 16px 0 24px;
+}
+
+.project-card {
+  display: block;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  color: #222;
+  overflow: hidden;
+  text-decoration: none;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.project-card:hover {
+  border-color: #0085A1;
+  transform: translateY(-2px);
+}
+
+.project-card img {
+  aspect-ratio: 16 / 10;
+  background: #f5f5f5;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.project-card__body {
+  display: block;
+  padding: 12px;
+}
+
+.project-card__title {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.project-card__meta {
+  color: #555;
+  display: block;
+  font-size: 0.92em;
+  line-height: 1.4;
+}
+</style>
 
 <a id="projects"></a>
-## Projects
+## Featured Work
 
-### Featured
+These are the current portfolio anchors: three projects with case-study pages, evaluation framing,
+and clear next-step ownership.
+
+<div class="project-grid" role="list">
+  <a class="project-card" href="{{ '/projects/musigan' | relative_url }}" role="listitem">
+    <img src="{{ '/images/MusiGAN.JPG' | relative_url }}" alt="MusiGAN project thumbnail">
+    <span class="project-card__body">
+      <span class="project-card__title">MusiGAN</span>
+      <span class="project-card__meta">Symbolic music generation with LSTM, GRU, and GAN tradeoffs.</span>
+    </span>
+  </a>
+  <a class="project-card" href="{{ '/projects/lendingclub' | relative_url }}" role="listitem">
+    <img src="{{ '/images/LC-Logo-Official-min-1024x418.png' | relative_url }}" alt="LendingClub Fairness project thumbnail">
+    <span class="project-card__body">
+      <span class="project-card__title">LendingClub Fairness</span>
+      <span class="project-card__meta">Credit prediction with fairness diagnostics and mitigation framing.</span>
+    </span>
+  </a>
+  <a class="project-card" href="{{ '/projects/instrument-classification' | relative_url }}" role="listitem">
+    <img src="{{ '/images/instrument_classification.png' | relative_url }}" alt="Instrument Classification project thumbnail">
+    <span class="project-card__body">
+      <span class="project-card__title">Instrument Classification</span>
+      <span class="project-card__meta">Audio classification with model evaluation and artifact planning.</span>
+    </span>
+  </a>
+</div>
 
 | Project | Focus | Status |
 | --- | --- | --- |
@@ -33,8 +103,6 @@ Browse the full project list and filters at [Projects](/projects/).
 <a id="about-resume"></a>
 ## About / Resume
 
-## Who I am
-
 I’m a data science engineer focused on:
 
 - Designing reliable ML systems for real users.
@@ -47,24 +115,3 @@ I’m a data science engineer focused on:
 
 - LinkedIn: [mohamed-elsalmi](https://www.linkedin.com/in/mohamed-elsalmi/)
 - GitHub: [github.com/elsalmi](https://github.com/elsalmi)
-- Bandcamp: [msalmi.bandcamp.com](https://msalmi.bandcamp.com/releases/)
-
-<style>
-.project-grid img {
-  max-width: 100%;
-}
-</style>
-
----
-
-## Quick highlights
-
-<div class="project-grid">
-
-[![MusiGAN](/images/MusiGAN.JPG)](/projects/musigan)
-
-[![LendingClub](/images/LC-Logo-Official-min-1024x418.png)](/projects/lendingclub)
-
-[![Instrument Classification](/images/instrument_classification.png)](/projects/instrument-classification)
-
-</div>

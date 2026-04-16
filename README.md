@@ -12,17 +12,24 @@ This portfolio-first upgrade focuses on senior-facing clarity and credibility:
 
 ## Current release
 
+### v1.1 (homepage hotfix + project index polish)
+
+- Restored homepage project thumbnails with Jekyll-safe HTML image cards.
+- Removed the music-profile link from visible contact content and site metadata.
+- Tightened homepage positioning and project index status language.
+
 ### v1 (GitHub-driven portfolio upgrade)
 
 - Added structured homepage sections for Home, Projects, About/Resume, and Contact.
 - Added portfolio information architecture in `projects/index.md`.
 - Added reusable project template at `projects/_template.md`.
-- Added five case-study pages:
+- Added six case-study pages:
   - `projects/musigan.md`
   - `projects/lendingclub.md`
   - `projects/instrument-classification.md`
   - `projects/qiskit.md`
   - `projects/caselaw.md`
+  - `projects/copbot.md`
 - Added `docs/PORTFOLIO.md` with best-work index and maturity tags.
 - Added GitHub Actions CI for markdown lint, link checks, and Jekyll build.
 - Updated site positioning and metadata in `_config.yml`.

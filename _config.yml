@@ -2,7 +2,7 @@ title: Mohamed ElSalmi
 description: >-
   Senior-focused machine learning and data science portfolio highlighting production-minded
   projects, reproducible workflows, measurable outcomes, and responsible AI practices.
-logo: /images/IMG_0829.jpeg?raw=true
+logo: /images/IMG_0829.jpeg
 
 header_pages:
   - index.md
@@ -15,7 +15,6 @@ baseurl: ""
 author:
   name: Mohamed ElSalmi
   linkedin: https://www.linkedin.com/in/mohamed-elsalmi/
-  bandcamp: https://msalmi.bandcamp.com/releases/
 
 theme: jekyll-theme-minimal
 

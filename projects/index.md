@@ -6,60 +6,20 @@ permalink: /projects/
 
 # Projects
 
-The featured projects below use a consistent structure so readers can quickly compare:
-
-- Problem framing
-- Data source and constraints
-- Method choices
-- Results + evaluation
-- Artifacts and reproducibility
-- Risk and next steps
+This is the curated project map. The active showcase pages use the same case-study structure:
+problem, data, method, results, artifacts, risks, and next improvements.
 
 ## Featured Work
 
-### [MusiGAN](/projects/musigan)
-
-Symbolic music generation using sequence models and GANs.
-
-- Tags: `generative-ai`, `music-ml`, `reproducibility`
-- Maturity: **Beta**  
-  Good narrative, needs finalized runtime packaging.
-
-### [LendingClub Fairness](/projects/lendingclub)
-
-Loan default prediction with bias-aware evaluation and mitigation experiments.
-
-- Tags: `fairness`, `tabular`, `classification`
-- Maturity: **Beta**
-
-### [Instrument Classification](/projects/instrument-classification)
-
-Instrument recognition experiments with audio preprocessing and model evaluation framing.
-
-- Tags: `audio`, `classification`, `model-evaluation`
-- Maturity: **In Progress**
-
-### [Qiskit Hub](/projects/qiskit)
-
-Quantum ML and simulator experimentation.
-
-- Tags: `quantum`, `learning`, `exploration`
-- Maturity: **Reference**
-
-### [CaseLaw](/projects/caselaw)
-
-Legal text retrieval and summarization workflow.
-
-- Tags: `nlp`, `legal-tech`, `summarization`
-- Maturity: **Reference**
-
-### [CopBot](/projects/copbot)
-
-Product concept and UX exploration.
-
-- Tags: `product-concept`, `web`, `interaction-design`
-- Maturity: **Archived/Reference**
+| Project | Status | Tags | Links |
+| --- | --- | --- | --- |
+| [MusiGAN](/projects/musigan) | Beta: strong narrative, runtime packaging next | `generative-ai`, `music-ml`, `reproducibility` | [Repo](https://github.com/elsalmi/MusiGAN) |
+| [LendingClub Fairness](/projects/lendingclub) | Beta: fairness story ready, reproducible reports next | `fairness`, `tabular`, `classification` | [Repo](https://github.com/elsalmi/LendingClub) |
+| [Instrument Classification](/projects/instrument-classification) | In Progress: evaluation artifacts next | `audio`, `classification`, `model-evaluation` | [Repo](https://github.com/elsalmi/Instrument-Classificiation-) |
+| [Qiskit Hub](/projects/qiskit) | Reference: curated learning and experiments | `quantum`, `learning`, `exploration` | [Repo](https://github.com/elsalmi/qiskit) |
+| [CaseLaw](/projects/caselaw) | Reference: legal NLP framing and safety polish next | `nlp`, `legal-tech`, `summarization` | [Repo](https://github.com/elsalmi/CaseLaw) |
+| [CopBot](/projects/copbot) | Archived/Reference: product concept context | `product-concept`, `web`, `interaction-design` | [Project](https://salmi99.wixsite.com/copbot) |
 
 ## Portfolio index
 
-See [`docs/PORTFOLIO.md`](/docs/PORTFOLIO.md) for maturity and review priority.
+See the [Portfolio Work Map](/docs/PORTFOLIO/) for maturity and review priority.
