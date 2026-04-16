@@ -16,6 +16,7 @@ permalink: /docs/PORTFOLIO/
 | Qiskit Hub | Quantum experimentation | Reference | Medium |
 | CaseLaw | Legal summarization + retrieval | Reference | Medium |
 | CopBot | Product concept and UX exploration | Archived/Reference | Low |
+| CopBot | Product concept and UX exploration | Archived/Reference | Low |
 
 ## Maturity legend
 

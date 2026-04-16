@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Projects
+permalink: /projects/
 ---
 
 # Projects
@@ -38,14 +39,14 @@ Instrument recognition experiments with audio preprocessing and model evaluation
 - Tags: `audio`, `classification`, `model-evaluation`
 - Maturity: **In Progress**
 
-### [Qiskit Hub](https://github.com/elsalmi/qiskit)
+### [Qiskit Hub](/projects/qiskit)
 
 Quantum ML and simulator experimentation.
 
 - Tags: `quantum`, `learning`, `exploration`
 - Maturity: **Reference**
 
-### [CaseLaw](https://github.com/elsalmi/CaseLaw)
+### [CaseLaw](/projects/caselaw)
 
 Legal text retrieval and summarization workflow.
 
