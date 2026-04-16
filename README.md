@@ -17,10 +17,12 @@ This portfolio-first upgrade focuses on senior-facing clarity and credibility:
 - Added structured homepage sections for Home, Projects, About/Resume, and Contact.
 - Added portfolio information architecture in `projects/index.md`.
 - Added reusable project template at `projects/_template.md`.
-- Added three case-study pages:
+- Added five case-study pages:
   - `projects/musigan.md`
   - `projects/lendingclub.md`
   - `projects/instrument-classification.md`
+  - `projects/qiskit.md`
+  - `projects/caselaw.md`
 - Added `docs/PORTFOLIO.md` with best-work index and maturity tags.
 - Added GitHub Actions CI for markdown lint, link checks, and Jekyll build.
 - Updated site positioning and metadata in `_config.yml`.
