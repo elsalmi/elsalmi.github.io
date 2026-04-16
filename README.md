@@ -18,6 +18,8 @@ This portfolio-first upgrade focuses on senior-facing clarity and credibility:
 - Removed the music-profile link from visible contact content and site metadata.
 - Tightened homepage positioning and project index status language.
 - Added LendingClub model-card and fairness-report links to the portfolio case study.
+- Added Instrument Classification baseline report, data notes, and reproducibility
+  links to the portfolio case study.
 
 ### v1 (GitHub-driven portfolio upgrade)
 
