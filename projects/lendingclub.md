@@ -8,7 +8,7 @@ permalink: /projects/lendingclub
 
 ## TL;DR
 
-Built a loan repayment prediction workflow and layered fairness diagnostics to check whether outcomes differed across protected-proxy groups.
+Built a loan repayment prediction workflow and layered fairness diagnostics to check whether outcomes differed across protected-proxy groups. The repo now includes a model card, data notes, and a short fairness report with metric snapshots from the original notebook export.
 
 ## Problem
 
@@ -30,15 +30,17 @@ This project aimed to surface those tradeoffs rather than hide them behind singl
 ## Results
 
 - Fairness checks included statistical parity difference, disparate impact, average odds difference, and equal opportunity difference.
-- The existing fairness notes reported meaningful movement toward parity after reweighing, with tradeoffs that are explicitly documented for decision-making.
+- Reported logistic-regression fairness snapshot: accuracy `0.652441`, statistical parity difference `-0.019635`, disparate impact `0.966937`, equal opportunity difference `-0.013784`, average odds difference `-0.013502`, and Theil index `0.354349`.
+- Reported reweighing snapshot: training mean outcome difference moved from `-0.017565` to `0.000000`; test mean outcome difference moved from `-0.019698` to `-0.002036`.
+- Reported random forest precision was `0.913286`, with the project framed around high-precision ranked loan selection rather than automated lending deployment.
 
 ## Demo / Artifacts
 
-- GitHub repository includes walkthroughs and fairness reporting structure.
-- The case-study page tracks next-step outputs to move toward:
-  - reproducible train/seeded inference script
-  - exported `FAIRNESS_REPORT.md`
-  - clear metric snapshots per model type
+- [Model card](https://github.com/elsalmi/LendingClub/blob/master/MODEL_CARD.md): intended use, metric snapshot, fairness framing, and limitations.
+- [Fairness report](https://github.com/elsalmi/LendingClub/blob/master/reports/FAIRNESS_REPORT.md): compact evidence artifact built from existing `Fairness.md` outputs.
+- [Data notes](https://github.com/elsalmi/LendingClub/blob/master/docs/DATA.md): source, local layout, ZIP3 proxy warning, and privacy constraints.
+- [Original fairness notebook export](https://github.com/elsalmi/LendingClub/blob/master/Fairness.md): traceable source for reported metric values.
+- Latest artifact update: added portfolio evidence docs so reviewers can verify what was measured and what is still pending.
 
 ## Risks and Tradeoffs
 
@@ -48,8 +50,8 @@ This project aimed to surface those tradeoffs rather than hide them behind singl
 ## What I’d improve next
 
 1. Replace mutable manual steps with idempotent scripts.
-2. Add a compact model card with explicit limitations and intended-use boundaries.
-3. Provide artifact screenshots from generated reports for quick trust verification.
+2. Regenerate the fairness report from a pinned environment instead of copying notebook outputs.
+3. Add calibration and threshold-sweep plots for precision/fairness tradeoffs.
 
 ## Repository
 

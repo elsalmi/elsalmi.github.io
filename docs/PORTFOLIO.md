@@ -11,7 +11,7 @@ permalink: /docs/PORTFOLIO/
 | Project | Focus | Maturity | Portfolio fit |
 | --- | --- | --- | --- |
 | MusiGAN | Generative sequence modeling + GAN tradeoffs | Beta | High |
-| LendingClub | Fairness-aware credit modeling | Beta | High |
+| LendingClub | Fairness-aware credit modeling with model card and report | Beta | High |
 | Instrument Classification | Audio classification and evaluation framing | In Progress | Medium |
 | Qiskit Hub | Quantum experimentation | Reference | Medium |
 | CaseLaw | Legal summarization + retrieval | Reference | Medium |
@@ -26,6 +26,6 @@ permalink: /docs/PORTFOLIO/
 
 ## Next work queue
 
-1. Add demo artifact links and thumbnails for each Beta project.
-2. Add reproducible report links for LendingClub and Instrument Classification.
+1. Add reproducible report links for Instrument Classification.
+2. Add demo artifact links and thumbnails for each Beta project.
 3. Add a concise “what changed” changelog under each page for future updates.
