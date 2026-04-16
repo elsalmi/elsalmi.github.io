@@ -25,8 +25,8 @@ clear on business goals, explicit about assumptions, and explicit about what sti
 | [MusiGAN](/projects/musigan) | Symbolic music generation with LSTM/GRU/GAN tradeoffs | Active showcase |
 | [LendingClub Fairness](/projects/lendingclub) | Credit prediction with fairness diagnostics and mitigation | Active showcase |
 | [Instrument Classification](/projects/instrument-classification) | Audio instrument recognition with model evaluation framing | Active showcase |
-| Qiskit Hub | Quantum computing learning projects | Curated link |
-| CaseLaw | Legal case retrieval and summarization pipeline | Active showcase |
+| [Qiskit Hub](https://github.com/elsalmi/qiskit) | Quantum computing learning projects | Curated link |
+| [CaseLaw](https://github.com/elsalmi/CaseLaw) | Legal case retrieval and summarization pipeline | Reference |
 
 Browse the full project list and filters at [Projects](/projects/).
 
@@ -61,10 +61,10 @@ I’m a data science engineer focused on:
 
 <div class="project-grid">
 
-[![MusiGAN](/images/MusiGAN.JPG?raw=true)](/projects/musigan)
+[![MusiGAN](/images/MusiGAN.JPG)](/projects/musigan)
 
-[![LendingClub](/images/LC-Logo-Official-min-1024x418.png?raw=true)](/projects/lendingclub)
+[![LendingClub](/images/LC-Logo-Official-min-1024x418.png)](/projects/lendingclub)
 
-[![Instrument Classification](/images/instrument_classification.png?raw=true)](/projects/instrument-classification)
+[![Instrument Classification](/images/instrument_classification.png)](/projects/instrument-classification)
 
 </div>

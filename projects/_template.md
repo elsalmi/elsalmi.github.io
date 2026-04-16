@@ -36,4 +36,4 @@ Limitations, biases, assumptions, and next improvements.
 
 ## Repository
 
-- GitHub: PLACEHOLDER
+- GitHub: `https://github.com/<org>/<repo>`
