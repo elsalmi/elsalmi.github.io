@@ -10,7 +10,7 @@ permalink: /docs/PORTFOLIO/
 
 | Project | Focus | Maturity | Portfolio fit |
 | --- | --- | --- | --- |
-| MusiGAN | Generative sequence modeling + GAN tradeoffs | Beta | High |
+| MusiGAN | Generative sequence modeling with eval/provenance docs | Beta | High |
 | LendingClub | Fairness-aware credit modeling with model card and report | Beta | High |
 | Instrument Classification | Audio classification with baseline report and demo plan | In Progress | Medium |
 | Qiskit Hub | Quantum experimentation | Reference | Medium |
@@ -26,6 +26,6 @@ permalink: /docs/PORTFOLIO/
 
 ## Next work queue
 
-1. Add MusiGAN reproducibility/evaluation artifacts and portfolio links.
-2. Add demo artifact links and thumbnails for each Beta project.
-3. Add a concise “what changed” changelog under each page for future updates.
+1. Add demo artifact links and thumbnails for each Beta project.
+2. Add a concise “what changed” changelog under each page for future updates.
+3. Begin repo cleanup passes for cleared/synthetic demo assets.

@@ -20,6 +20,8 @@ This portfolio-first upgrade focuses on senior-facing clarity and credibility:
 - Added LendingClub model-card and fairness-report links to the portfolio case study.
 - Added Instrument Classification baseline report, data notes, and reproducibility
   links to the portfolio case study.
+- Added MusiGAN reproducibility, provenance, evaluation, sample-report, and
+  artifact-ignore links to the portfolio case study.
 
 ### v1 (GitHub-driven portfolio upgrade)
 
