@@ -74,8 +74,7 @@ reproducible workflows, measurable evaluation, and responsible-use notes.
 <a id="projects"></a>
 ## Featured Work
 
-These are the current portfolio anchors: three projects with case-study pages, evaluation framing,
-and clear next-step ownership.
+These are the projects I want people to look at first.
 
 <div class="project-grid" role="list">
   <a class="project-card" href="/projects/musigan" role="listitem">
@@ -96,7 +95,7 @@ and clear next-step ownership.
     <img src="/images/instrument_classification.png" alt="Instrument Classification project thumbnail">
     <span class="project-card__body">
       <span class="project-card__title">Instrument Classification</span>
-      <span class="project-card__meta">Audio classification with model evaluation and artifact planning.</span>
+      <span class="project-card__meta">Audio classification with measured baselines and CNN experiments.</span>
     </span>
   </a>
 </div>
@@ -119,7 +118,7 @@ I’m a data science engineer focused on:
 - Designing reliable ML systems for real users.
 - Turning notebooks into reproducible workflows.
 - Reporting results with measurable impact and responsible AI checks.
-- Shipping practical artifacts such as demos, metrics, and documentation.
+- Shipping practical work such as demos, metrics, and documentation.
 
 <a id="contact"></a>
 ## Contact

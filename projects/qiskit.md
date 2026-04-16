@@ -12,7 +12,8 @@ Built a practical set of quantum computing experiments and notes through the Qis
 
 ## Problem
 
-How do we demonstrate practical understanding of quantum programming concepts while keeping work understandable to non-specialists? This page frames the repo as an educational engineering artifact rather than a production system.
+How do we demonstrate practical understanding of quantum programming concepts
+while keeping the work understandable to non-specialists?
 
 ## Data
 
@@ -23,17 +24,17 @@ How do we demonstrate practical understanding of quantum programming concepts wh
 
 - Organize notebooks/notes by topic and reproducible setup steps.
 - Capture minimal setup instructions and command snippets for consistent reruns.
-- Keep outputs (plots/circuit diagrams) as explicit evidence.
+- Keep plots and circuit diagrams easy to inspect.
 
 ## Results
 
-- The portfolio value is strongest as a technical apprenticeship piece: clear progression from basics to experiment execution.
-- The next upgrade step is to add standardized `environment.md` and one short "what you can reproduce" section.
+- The project shows a clear progression from basics to experiment execution.
+- Next step: add standardized `environment.md` and one short "what you can reproduce" section.
 
-## Demo / Artifacts
+## Links
 
 - Repo code and notebooks are listed in the GitHub project.
-- Future-ready artifact set: environment setup, reproducible notebook execution instructions, and screenshots of representative circuits.
+- Planned additions: setup notes, reproducible notebook instructions, and screenshots of representative circuits.
 
 ## Risks and Tradeoffs
 

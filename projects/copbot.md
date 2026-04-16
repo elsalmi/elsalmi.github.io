@@ -8,7 +8,8 @@ permalink: /projects/copbot
 
 ## TL;DR
 
-Exploratory product concept and interface work for a chatbot-style tool in a security context, useful as a portfolio reference for UX and systems thinking.
+Exploratory product concept and interface work for a chatbot-style tool in a
+security context, focused on UX and systems thinking.
 
 ## Problem
 
@@ -23,21 +24,21 @@ How can a practical prototype convey a full product idea while making assumption
 
 - Capture use-case intent and interaction flow.
 - Describe scope boundaries around safety and trust for user-facing chat behavior.
-- Preserve artifacts and links for reproducibility and review.
+- Preserve useful links and examples for future iteration.
 
 ## Results
 
-- Strong portfolio value as a concept proof for communication and product framing.
+- Useful as a concept proof for communication and product framing.
 - Next improvement is to surface a short screenshot set and define a concrete usage scenario.
 
-## Demo / Artifacts
+## Links
 
-- External project host: linked in the previous portfolio copy.
+- External project host: linked below.
 - Planned updates: architecture sketch + simple interaction examples.
 
 ## Risks and Tradeoffs
 
-- Concept-level projects require explicit communication that they are not production-grade.
+- Concept-level projects need clear limits: this is not production software.
 - Safety and misuse boundaries should be clearly described.
 
 ## What I’d improve next

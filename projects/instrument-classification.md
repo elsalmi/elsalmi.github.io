@@ -10,9 +10,8 @@ permalink: /projects/instrument-classification
 
 Built an instrument recognition workflow over NSynth audio with two modeling
 tracks: feature-based supervised learning and CNN experiments over
-spectrogram-style images. The current evidence snapshot is honest about what is
-measured: a random forest baseline reached `54.20%` accuracy and a
-randomized-search random forest reached `57.57%` accuracy in the committed
+spectrogram-style images. The best measured baseline so far is a random forest
+at `54.20%` accuracy, improved to `57.57%` with randomized search in the
 supervised-learning notebook.
 
 ## Problem
@@ -26,9 +25,9 @@ confusions, and measurable next thresholds.
 - Dataset: Google NSynth.
 - Notebook-observed metadata split sizes: 289,205 training records, 12,678
   validation records, and 4,096 test records.
-- The portfolio artifact now documents dataset source, local layout assumptions,
-  class-set differences across notebooks, and why raw audio/features are not
-  committed to the repo.
+- The project notes document dataset source, local layout assumptions, class-set
+  differences across notebooks, and why raw audio/features are not committed to
+  the repo.
 
 ## Method
 
@@ -36,26 +35,25 @@ confusions, and measurable next thresholds.
 - Trained random forest baselines and plotted normalized confusion matrices.
 - Prepared spectrogram-style image folders for fast.ai CNN experiments,
   including pretrained ResNet/DenseNet variants.
-- Separated measured baseline evidence from demo plans so the page does not
-  overclaim model readiness.
+- Kept the measured baseline separate from the demo plan so the project does not
+  overstate model readiness.
 
 ## Results
 
-| Evidence | Current status |
+| Area | Current status |
 | --- | --- |
 | Random forest accuracy | `54.20%` in `4.SupervisedLearning.ipynb` |
 | Randomized-search random forest accuracy | `57.57%` in `4.SupervisedLearning.ipynb` |
 | CNN confusion review | Present in notebooks, with most-confused pairs such as brass/reed, flute/reed, and vocal/string |
 | Final CNN metric table | Pending regeneration from a pinned environment |
 
-The useful signal here is not that the model is “done”; it is that the repo now
-has a clear baseline, known gaps, and a practical path from notebook experiment
-to demo artifact.
+The project is not finished, but it now has a clear baseline, known gaps, and a
+practical path from notebook experiment to a small demo.
 
-## Demo / Artifacts
+## Links
 
 - [Source repo](https://github.com/elsalmi/Instrument-Classificiation-)
-- [Evidence report](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/reports/REPORT.md)
+- [Report](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/reports/REPORT.md)
 - [Data notes](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/docs/DATA.md)
 - [Reproducibility notes](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/docs/REPRODUCIBILITY.md)
 - [Supervised-learning notebook](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/4.SupervisedLearning.ipynb)
@@ -68,14 +66,14 @@ to demo artifact.
 - The repo is notebook-first and does not yet include raw NSynth data, generated
   spectrogram folders, serialized feature tables, or model checkpoints.
 - The supervised-learning path and CNN path use different class sets in the
-  committed evidence.
+  committed notebooks.
 - The demo should warn users that NSynth is isolated-note data, not arbitrary
   mixed music.
 
 ## What I’d improve next
 
 1. Add a pinned environment file and deterministic feature extraction script.
-2. Include a small confusion matrix figure in a `reports/` artifact.
+2. Include a small confusion matrix figure in `reports/`.
 3. Regenerate CNN metrics and export them as a stable report table.
 4. Define acceptance thresholds and error budgets by instrument class.
 

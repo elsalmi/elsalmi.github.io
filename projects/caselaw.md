@@ -12,7 +12,8 @@ Built a legal case retrieval and summarization workflow focused on practical inf
 
 ## Problem
 
-Legal text is long and noisy; teams need a way to move from question to relevant evidence quickly while preserving clarity and traceability.
+Legal text is long and noisy; teams need a way to move from question to relevant
+sources quickly while preserving clarity and traceability.
 
 ## Data
 
@@ -27,10 +28,10 @@ Legal text is long and noisy; teams need a way to move from question to relevant
 
 ## Results
 
-- This portfolio framing highlights practical legal-NLP thinking: retrieval quality, summarization clarity, and explainability of returned sources.
+- The project highlights practical legal-NLP concerns: retrieval quality, summarization clarity, and explainability of returned sources.
 - Next step is to add a small benchmark set (accuracy / citation quality sanity checks).
 
-## Demo / Artifacts
+## Links
 
 - Repository contains implementation path and experiment notes.
 - Planned follow-up: a short demo notebook and sample query pack with expected retrieval outcomes.

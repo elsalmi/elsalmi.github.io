@@ -26,7 +26,7 @@ What model(s), tools, and workflow were used.
 
 What was measured and what changed after iterations.
 
-## Demo / Artifacts
+## Links
 
 What can be viewed, downloaded, or reproduced.
 

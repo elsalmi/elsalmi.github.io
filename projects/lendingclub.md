@@ -8,7 +8,10 @@ permalink: /projects/lendingclub
 
 ## TL;DR
 
-Built a loan repayment prediction workflow and layered fairness diagnostics to check whether outcomes differed across protected-proxy groups. The repo now includes a model card, data notes, and a short fairness report with metric snapshots from the original notebook export.
+Built a loan repayment prediction workflow with fairness diagnostics to check
+whether outcomes differed across ZIP-derived proxy groups. The repo includes a
+model card, data notes, and a fairness report based on the original notebook
+metrics.
 
 ## Problem
 
@@ -34,17 +37,17 @@ This project aimed to surface those tradeoffs rather than hide them behind singl
 - Reported reweighing snapshot: training mean outcome difference moved from `-0.017565` to `0.000000`; test mean outcome difference moved from `-0.019698` to `-0.002036`.
 - Reported random forest precision was `0.913286`, with the project framed around high-precision ranked loan selection rather than automated lending deployment.
 
-## Demo / Artifacts
+## Links
 
 - [Model card](https://github.com/elsalmi/LendingClub/blob/master/MODEL_CARD.md): intended use, metric snapshot, fairness framing, and limitations.
-- [Fairness report](https://github.com/elsalmi/LendingClub/blob/master/reports/FAIRNESS_REPORT.md): compact evidence artifact built from existing `Fairness.md` outputs.
+- [Fairness report](https://github.com/elsalmi/LendingClub/blob/master/reports/FAIRNESS_REPORT.md): summary built from existing `Fairness.md` outputs.
 - [Data notes](https://github.com/elsalmi/LendingClub/blob/master/docs/DATA.md): source, local layout, ZIP3 proxy warning, and privacy constraints.
 - [Original fairness notebook export](https://github.com/elsalmi/LendingClub/blob/master/Fairness.md): traceable source for reported metric values.
-- Latest artifact update: added portfolio evidence docs so reviewers can verify what was measured and what is still pending.
 
 ## Risks and Tradeoffs
 
-- ZIP-proxy framing is useful for portfolio communication but requires strict framing and governance if discussed in operational settings.
+- ZIP-derived proxy groups are useful for auditing patterns, but they are noisy
+  and require careful governance in any real-world setting.
 - Accuracy and fairness can move in opposite directions if thresholding and sampling assumptions are changed.
 
 ## What I’d improve next
