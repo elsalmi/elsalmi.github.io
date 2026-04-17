@@ -5,13 +5,13 @@ title: Home
 
 # Mohamed ElSalmi
 
-I build machine-learning work that still makes sense after the notebook is gone.
+I build applied machine-learning work that can be checked, reused, and defended on the merits.
 
-Most of these projects started as rough experiments. I cleaned them up because I wanted the page to show what I tried, what held up, and where it still has gaps. I care more about work that is honest and usable later than work that just looks polished today.
+Most of these projects started as notebooks. I rewrote them so the data, method, results, and tradeoffs are all in one place. I care more about evidence than adjectives.
 
 <nav class="home-links" aria-label="Page sections">
   <a href="#projects">Projects</a>
-  <a href="#about">About</a>
+  <a href="#focus">Focus</a>
   <a href="#contact">Contact</a>
 </nav>
 
@@ -77,28 +77,28 @@ Most of these projects started as rough experiments. I cleaned them up because I
 <a id="projects"></a>
 ## Featured Work
 
-These are the ones I’d point you to first.
+These are the projects that best represent the work here.
 
 <div class="project-grid" role="list">
   <a class="project-card" href="/projects/musigan" role="listitem">
     <img src="/images/MusiGAN.JPG" alt="MusiGAN project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">MusiGAN</span>
-      <span class="project-card__meta">A small symbolic-music project where I compared LSTM, GRU, and GAN outputs.</span>
+      <span class="project-card__meta">Symbolic music generation comparing LSTM, GRU, and GAN outputs.</span>
     </span>
   </a>
   <a class="project-card" href="/projects/lendingclub" role="listitem">
     <img src="/images/LC-Logo-Official-min-1024x418.png" alt="LendingClub Fairness project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">LendingClub Fairness</span>
-      <span class="project-card__meta">Loan-risk modeling with fairness checks that stay visible.</span>
+      <span class="project-card__meta">Loan-risk modeling with fairness checks and a model card.</span>
     </span>
   </a>
   <a class="project-card" href="/projects/instrument-classification" role="listitem">
     <img src="/images/instrument_classification.png" alt="Instrument Classification project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">Instrument Classification</span>
-      <span class="project-card__meta">NSynth classification with a baseline and error notes I can point to.</span>
+      <span class="project-card__meta">NSynth classification with a baseline and error analysis.</span>
     </span>
   </a>
   <a class="project-card" href="/projects/qiskit" role="listitem">
@@ -120,14 +120,14 @@ These are the ones I’d point you to first.
 
 Browse the full project list and filters at [Projects](/projects/).
 
-<a id="about"></a>
-## About
+<a id="focus"></a>
+## Focus
 
-What I usually care about is simple:
+What I care about is simple:
 
 - Start with the question and the constraint that matters.
 - Keep the evaluation visible, even when the answer is messy.
-- Leave behind something another person can actually pick up.
+- Leave behind something another person can actually use.
 
 If a project needs a long explanation to sound important, it probably needs another pass.
 
