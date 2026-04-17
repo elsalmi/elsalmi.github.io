@@ -30,16 +30,18 @@ I build production-minded machine learning and data science systems with measura
 
 .project-card {
   display: block;
-  border: 1px solid #e8e8e8;
+  border: 1px solid var(--mm-line, #e8e8e8);
   border-radius: 6px;
-  color: #222;
+  color: var(--mm-ink, #222);
+  background: var(--mm-paper-soft, #fcf8f4);
   overflow: hidden;
   text-decoration: none;
-  transition: border-color 160ms ease, transform 160ms ease;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
 
 .project-card:hover {
-  border-color: #0085A1;
+  border-color: var(--mm-accent-dark, #8b2d3f);
+  box-shadow: 0 8px 20px rgba(11, 16, 32, 0.12);
   transform: translateY(-2px);
 }
 
@@ -63,7 +65,7 @@ I build production-minded machine learning and data science systems with measura
 }
 
 .project-card__meta {
-  color: #555;
+  color: var(--mm-ink-muted, #555);
   display: block;
   font-size: 0.92em;
   line-height: 1.4;
