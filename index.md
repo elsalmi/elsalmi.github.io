@@ -97,6 +97,13 @@ These are the projects I want people to look at first.
       <span class="project-card__meta">Classifies NSynth notes with random forest baselines and CNN experiments.</span>
     </span>
   </a>
+  <a class="project-card" href="/projects/qiskit" role="listitem">
+    <img src="/images/qiskit.jpg" alt="Qiskit Hub project thumbnail">
+      <span class="project-card__body">
+      <span class="project-card__title">Qiskit Hub</span>
+      <span class="project-card__meta">Runs core quantum-circuit tutorials with reproducible simulator outputs.</span>
+    </span>
+  </a>
 </div>
 
 | Project | Focus | Status |
@@ -104,8 +111,8 @@ These are the projects I want people to look at first.
 | [MusiGAN](/projects/musigan) | Symbolic music generation with LSTM/GRU/GAN tradeoffs | Active showcase |
 | [LendingClub Fairness](/projects/lendingclub) | Credit prediction with fairness diagnostics and mitigation | Active showcase |
 | [Instrument Classification](/projects/instrument-classification) | Audio instrument recognition with measured model evaluation | Active showcase |
-| [Qiskit Hub](https://github.com/elsalmi/qiskit) | Quantum computing learning projects | Curated link |
-| [CaseLaw](https://github.com/elsalmi/CaseLaw) | Legal case retrieval and summarization pipeline | Reference |
+| [Qiskit Hub](/projects/qiskit) | Quantum circuit tutorials with deterministic simulator checks | Active showcase |
+| [CaseLaw](/projects/caselaw) | Legal case retrieval and summarization pipeline | Reference |
 
 Browse the full project list and filters at [Projects](/projects/).
 
