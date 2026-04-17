@@ -49,18 +49,19 @@ This density plot is a direct notebook output. It shows why ranking by predicted
 - [Fairness report](https://github.com/elsalmi/LendingClub/blob/master/reports/FAIRNESS_REPORT.md): summary built from existing `Fairness.md` outputs.
 - [Data notes](https://github.com/elsalmi/LendingClub/blob/master/docs/DATA.md): source, local layout, ZIP3 proxy warning, and privacy constraints.
 - [Original fairness notebook export](https://github.com/elsalmi/LendingClub/blob/master/Fairness.md): traceable source for reported metric values.
+- [Report regeneration script](https://github.com/elsalmi/LendingClub/blob/master/scripts/build_fairness_report.py): re-emits the short fairness report from the committed model-card snapshot.
+
+## Updated evidence
+
+- Added a [model card](https://github.com/elsalmi/LendingClub/blob/master/MODEL_CARD.md), [fairness report](https://github.com/elsalmi/LendingClub/blob/master/reports/FAIRNESS_REPORT.md), and [report regeneration script](https://github.com/elsalmi/LendingClub/blob/master/scripts/build_fairness_report.py).
+- Kept the ZIP3 proxy warning in the data and risk notes so the fairness story stays honest.
+- Left the original notebook export linked as the traceable source for the metric snapshot.
 
 ## Risks
 
 - ZIP-derived proxy groups are useful for auditing patterns, but they are noisy
   and require careful governance in any real-world setting.
 - Accuracy and fairness can move in opposite directions if thresholding and sampling assumptions are changed.
-
-## What changed
-
-- Tightened the page into a clear problem -> method -> results narrative.
-- Kept measurable fairness outputs directly in the Results section.
-- Added a concrete model-output figure and linked only to real supporting materials.
 
 ## What I’d improve next
 

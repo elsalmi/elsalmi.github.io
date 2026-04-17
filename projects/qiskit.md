@@ -49,22 +49,23 @@ Output extracted from the committed
 ## Links
 
 - [Source repo](https://github.com/elsalmi/qiskit)
+- [Reproducibility notes](https://github.com/elsalmi/qiskit/blob/master/docs/REPRODUCIBILITY.md)
 - [Hello World tutorial](https://github.com/elsalmi/qiskit/blob/master/Tutorials/1.%20Hello%20World.ipynb)
 - [Quantum Teleportation tutorial](https://github.com/elsalmi/qiskit/blob/master/Tutorials/3.%20Quantum%20Teleportation%20Algoirthim.ipynb)
 - [Bernstein-Vazirani tutorial](https://github.com/elsalmi/qiskit/blob/master/Tutorials/4.%20Bernstein-Vazirani%20Algorithm.ipynb)
 - [Quantum gates cheat sheet](https://github.com/elsalmi/qiskit/blob/master/Tutorials/Quantum%20Gates%20Cheat%20Sheet.pdf)
+
+## Updated evidence
+
+- Added [reproducibility notes](https://github.com/elsalmi/qiskit/blob/master/docs/REPRODUCIBILITY.md) with notebook order and environment expectations.
+- Kept the deterministic Bernstein-Vazirani output as the clearest checked result in the tutorial path.
+- Reframed the repo around the four tutorials and archived the scratch notebook outside the core flow.
 
 ## Risks
 
 - Quantum libraries evolve quickly, so notebooks can break as APIs change.
 - Simulator success does not guarantee equivalent behavior on real hardware noise profiles.
 - This is an educational and experimentation repo, not a production quantum system.
-
-## What changed
-
-- Rewrote the page to focus on concrete notebook artifacts and outcomes.
-- Added a real output sample image from the committed Bernstein-Vazirani notebook.
-- Replaced vague/planned language with direct links to existing tutorials and references.
 
 ## What I’d improve next
 

@@ -9,6 +9,8 @@ I build applied machine-learning work that can be checked, reused, and defended 
 
 Most of these projects started as notebooks. I rewrote them so the data, method, results, and tradeoffs are all in one place. I care more about evidence than adjectives.
 
+The three main case studies now point back to the source docs and rebuild paths too: Qiskit has reproducibility notes, LendingClub has a generated fairness report, and Instrument Classification has a pinned legacy environment plus a report rebuild script.
+
 <nav class="home-links" aria-label="Page sections">
   <a href="#projects">Projects</a>
   <a href="#focus">Focus</a>
@@ -84,41 +86,43 @@ These are the projects that best represent the work here.
     <img src="/images/MusiGAN.JPG" alt="MusiGAN project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">MusiGAN</span>
-      <span class="project-card__meta">Symbolic music generation comparing LSTM, GRU, and GAN outputs.</span>
+      <span class="project-card__meta">Symbolic music generation with sample outputs and provenance notes.</span>
     </span>
   </a>
   <a class="project-card" href="/projects/lendingclub" role="listitem">
     <img src="/images/LC-Logo-Official-min-1024x418.png" alt="LendingClub Fairness project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">LendingClub Fairness</span>
-      <span class="project-card__meta">Loan-risk modeling with fairness checks and a model card.</span>
+      <span class="project-card__meta">Loan-risk modeling with a model card, fairness report, and rebuild script.</span>
     </span>
   </a>
   <a class="project-card" href="/projects/instrument-classification" role="listitem">
     <img src="/images/instrument_classification.png" alt="Instrument Classification project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">Instrument Classification</span>
-      <span class="project-card__meta">NSynth classification with a baseline and error analysis.</span>
+      <span class="project-card__meta">NSynth classification with a pinned environment and report rebuild path.</span>
     </span>
   </a>
   <a class="project-card" href="/projects/qiskit" role="listitem">
     <img src="/images/qiskit.jpg" alt="Qiskit Hub project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">Qiskit Hub</span>
-      <span class="project-card__meta">Qiskit tutorials with deterministic simulator outputs.</span>
+      <span class="project-card__meta">Qiskit tutorials with reproducibility notes and deterministic simulator output.</span>
     </span>
   </a>
 </div>
 
 | Project | What it shows | Status |
 | --- | --- | --- |
-| [MusiGAN](/projects/musigan) | Symbolic music generation and sample outputs | Featured |
-| [LendingClub Fairness](/projects/lendingclub) | Loan-risk modeling with fairness checks and a model card | Featured |
-| [Instrument Classification](/projects/instrument-classification) | Audio classification with a baseline and error analysis | Featured |
-| [Qiskit Hub](/projects/qiskit) | Quantum tutorials with reproducible simulator outputs | Featured |
+| [MusiGAN](/projects/musigan) | Symbolic music generation with sample outputs and provenance notes | Featured |
+| [LendingClub Fairness](/projects/lendingclub) | Loan-risk modeling with a model card, fairness report, and rebuild script | Featured |
+| [Instrument Classification](/projects/instrument-classification) | Audio classification with a pinned environment and report rebuild path | Featured |
+| [Qiskit Hub](/projects/qiskit) | Quantum tutorials with reproducibility notes and deterministic simulator output | Featured |
 | [CaseLaw](/projects/caselaw) | Legal retrieval and summarization reference with supervised and unsupervised notebooks | Reference |
 
 Browse the full project list and filters at [Projects](/projects/).
+
+The featured technical case studies link back to repo docs, report snapshots, and rebuild scripts so the evidence is traceable instead of implied.
 
 <a id="focus"></a>
 ## Focus

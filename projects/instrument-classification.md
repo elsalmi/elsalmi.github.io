@@ -65,10 +65,18 @@ This confusion matrix is pulled from the randomized-search run in
 - [Report](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/reports/REPORT.md)
 - [Data notes](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/docs/DATA.md)
 - [Reproducibility notes](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/docs/REPRODUCIBILITY.md)
+- [Pinned environment](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/environment.yml)
 - [Supervised-learning notebook](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/4.SupervisedLearning.ipynb)
+- [Rebuild script](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/scripts/rebuild_report.py)
 - Planned demo path: upload a short WAV/MP3 note, compute the same
   spectrogram-style representation, return top-k class predictions with
   confidence, and show the known confusion risks.
+
+## Updated evidence
+
+- Added the [pinned environment](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/environment.yml) and [rebuild script](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/scripts/rebuild_report.py) so the baseline is easier to rerun.
+- Kept the [report snapshot](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/reports/REPORT.md) and reproducibility notes aligned with the 11-class baseline.
+- Left the 11-class vs 8-class warning explicit so the CNN path does not get over-interpreted.
 
 ## Risks
 
@@ -78,12 +86,6 @@ This confusion matrix is pulled from the randomized-search run in
   committed notebooks.
 - The demo should warn users that NSynth is isolated-note data, not arbitrary
   mixed music.
-
-## What changed
-
-- Simplified the page language and standardized section order.
-- Kept measured baseline numbers visible (`54.20%` and `57.57%`).
-- Added a concrete confusion-matrix output sample and kept links to working resources.
 
 ## What I’d improve next
 
