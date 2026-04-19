@@ -8,7 +8,7 @@ permalink: /projects/instrument-classification
 
 ## TL;DR
 
-Built an instrument recognition workflow over NSynth audio with two modeling
+Built an instrument recognition project over NSynth audio with two modeling
 tracks: feature-based supervised learning and CNN experiments over
 spectrogram-style images. The best measured baseline so far is a random forest
 at `54.20%` accuracy, improved to `57.57%` with randomized search in the
@@ -16,9 +16,9 @@ supervised-learning notebook.
 
 ## Problem
 
-Given a short isolated note, predict the instrument family while making model
-behavior understandable enough for demo review: expected inputs, likely
-confusions, and measurable next thresholds.
+Given a short isolated note, predict the instrument family and make model
+behavior understandable enough for review: expected inputs, likely confusions,
+and practical quality targets.
 
 ## Data
 
@@ -48,7 +48,7 @@ confusions, and measurable next thresholds.
 | Final CNN metric table | Pending regeneration from a pinned environment |
 
 The project is not finished, but it now has a clear baseline, known gaps, and a
-practical path from notebook experiment to a small demo.
+concrete route from notebook experiment to a small demo.
 
 ## Output sample
 
@@ -68,11 +68,8 @@ This confusion matrix is pulled from the randomized-search run in
 - [Pinned environment](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/environment.yml)
 - [Supervised-learning notebook](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/4.SupervisedLearning.ipynb)
 - [Rebuild script](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/scripts/rebuild_report.py)
-- Planned demo path: upload a short WAV/MP3 note, compute the same
-  spectrogram-style representation, return top-k class predictions with
-  confidence, and show the known confusion risks.
 
-## Updated evidence
+## Recent updates
 
 - Added the [pinned environment](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/environment.yml) and [rebuild script](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/scripts/rebuild_report.py) so the baseline is easier to rerun.
 - Kept the [report snapshot](https://github.com/elsalmi/Instrument-Classificiation-/blob/master/reports/REPORT.md) and reproducibility notes aligned with the 11-class baseline.
@@ -93,3 +90,4 @@ This confusion matrix is pulled from the randomized-search run in
 2. Include a small confusion matrix figure in `reports/`.
 3. Regenerate CNN metrics and export them as a stable report table.
 4. Define acceptance thresholds and error budgets by instrument class.
+5. Build a lightweight demo that accepts a short WAV/MP3 note and returns top-k predictions with confidence.

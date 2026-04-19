@@ -8,45 +8,47 @@ permalink: /projects/copbot
 
 ## TL;DR
 
-Exploratory product concept and interface work for a chatbot-style tool in a
-security context, focused on UX and systems thinking.
+CopBot is an early product concept project focused on UX, scope, and
+interaction design in a security context.
 
 ## Problem
 
-How can a practical prototype convey a full product idea while making assumptions and limitations explicit, especially when code is exploratory rather than productionized?
+How do you communicate a useful product idea before full engineering is in
+place, while still being clear about limitations and safety boundaries?
 
 ## Data
 
-- This page summarizes a public-facing project reference rather than a structured ML modeling dataset.
-- The project context is best used as product context and workflow communication, not as a benchmarked model.
+- No formal ML dataset is part of this project.
+- This is better read as product and UX exploration than as a modeling benchmark.
 
 ## Method
 
-- Capture use-case intent and interaction flow.
-- Describe scope boundaries around safety and trust for user-facing chat behavior.
-- Preserve useful links and examples for future iteration.
+- Defined target user scenarios and core interaction flow.
+- Mapped key trust and safety constraints for a chat interface.
+- Captured the concept publicly for future design and engineering iteration.
 
 ## Results
 
-- Useful as a concept proof for communication and product framing.
-- Next improvement is to surface a short screenshot set and define a concrete usage scenario.
+- The concept is clear enough to discuss with collaborators and scope further work.
+- The external page captures positioning and intent, but technical depth is limited.
 
 ## Links
 
-- External project host: linked below.
-- Planned updates: architecture sketch + simple interaction examples.
+- [External project page](https://salmi99.wixsite.com/copbot)
 
 ## Risks and Tradeoffs
 
-- Concept-level projects need clear limits: this is not production software.
-- Safety and misuse boundaries should be clearly described.
+- This is not production software.
+- Without implementation detail, it is easy to overestimate readiness.
+- Safety and misuse boundaries need to be explicit in any next version.
+
+## Recent updates
+
+- Rewrote this page in plain language and removed generic filler copy.
+- Kept it in the portfolio as a reference-tier concept project.
 
 ## What I’d improve next
 
-1. Add a one-page wireframe gallery.
-2. Document interaction constraints and expected failure cases.
-3. Add a short impact statement aligned with user outcomes.
-
-## Repository
-
-- GitHub/Wix: [salmi99.wixsite.com/copbot](https://salmi99.wixsite.com/copbot)
+1. Add a one-page wireframe gallery with user flow annotations.
+2. Document expected failure modes and guardrails.
+3. Add a scoped technical plan for a minimal working prototype.

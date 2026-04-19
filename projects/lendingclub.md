@@ -8,15 +8,16 @@ permalink: /projects/lendingclub
 
 ## TL;DR
 
-Built a loan repayment prediction workflow with fairness diagnostics to check
+Built a loan repayment prediction project with fairness diagnostics to check
 whether outcomes differed across ZIP-derived proxy groups. The repo includes a
-model card, data notes, and a fairness report based on the original notebook
+model card, data notes, and a fairness report based on original notebook
 metrics.
 
 ## Problem
 
-Credit risk models are often high-performing but can carry unequal error profiles across demographic proxies.  
-This project aimed to surface those tradeoffs rather than hide them behind single-metric accuracy reporting.
+Credit risk models can look strong overall while still producing uneven errors
+across proxy groups. This project keeps those tradeoffs visible instead of
+hiding behind one accuracy number.
 
 ## Data
 
@@ -51,7 +52,7 @@ This density plot is a direct notebook output. It shows why ranking by predicted
 - [Original fairness notebook export](https://github.com/elsalmi/LendingClub/blob/master/Fairness.md): traceable source for reported metric values.
 - [Report regeneration script](https://github.com/elsalmi/LendingClub/blob/master/scripts/build_fairness_report.py): re-emits the short fairness report from the committed model-card snapshot.
 
-## Updated evidence
+## Recent updates
 
 - Added a [model card](https://github.com/elsalmi/LendingClub/blob/master/MODEL_CARD.md), [fairness report](https://github.com/elsalmi/LendingClub/blob/master/reports/FAIRNESS_REPORT.md), and [report regeneration script](https://github.com/elsalmi/LendingClub/blob/master/scripts/build_fairness_report.py).
 - Kept the ZIP3 proxy warning in the data and risk notes so the fairness story stays honest.

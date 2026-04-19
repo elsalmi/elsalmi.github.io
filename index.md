@@ -5,11 +5,11 @@ title: Home
 
 # Mohamed ElSalmi
 
-I build applied machine-learning work that can be checked, reused, and defended on the merits.
+I build machine-learning and data projects that can survive real review.
 
-Most of these projects started as notebooks. I rewrote them so the data, method, results, and tradeoffs are all in one place. I care more about evidence than adjectives.
+This site is a practical record of that work: what problem I took on, what I built, how I measured it, and what I would improve next.
 
-The three main case studies now point back to the source docs and rebuild paths too: Qiskit has reproducibility notes, LendingClub has a generated fairness report, and Instrument Classification has a pinned legacy environment plus a report rebuild script.
+If you want the quick read, start with LendingClub, Instrument Classification, and Qiskit. Those pages are the clearest examples of how I think through model quality, tradeoffs, and delivery.
 
 <nav class="home-links" aria-label="Page sections">
   <a href="#projects">Projects</a>
@@ -86,43 +86,43 @@ These are the projects that best represent the work here.
     <img src="/images/MusiGAN.JPG" alt="MusiGAN project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">MusiGAN</span>
-      <span class="project-card__meta">Symbolic music generation with sample outputs and provenance notes.</span>
+      <span class="project-card__meta">Compared LSTM, GRU, and GAN models on symbolic MIDI generation.</span>
     </span>
   </a>
   <a class="project-card" href="/projects/lendingclub" role="listitem">
     <img src="/images/LC-Logo-Official-min-1024x418.png" alt="LendingClub Fairness project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">LendingClub Fairness</span>
-      <span class="project-card__meta">Loan-risk modeling with a model card, fairness report, and rebuild script.</span>
+      <span class="project-card__meta">Predicted loan outcomes and audited fairness with traceable metrics.</span>
     </span>
   </a>
   <a class="project-card" href="/projects/instrument-classification" role="listitem">
     <img src="/images/instrument_classification.png" alt="Instrument Classification project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">Instrument Classification</span>
-      <span class="project-card__meta">NSynth classification with a pinned environment and report rebuild path.</span>
+      <span class="project-card__meta">Built NSynth baselines, confusion-matrix analysis, and reproducible reporting.</span>
     </span>
   </a>
   <a class="project-card" href="/projects/qiskit" role="listitem">
     <img src="/images/qiskit.jpg" alt="Qiskit Hub project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">Qiskit Hub</span>
-      <span class="project-card__meta">Qiskit tutorials with reproducibility notes and deterministic simulator output.</span>
+      <span class="project-card__meta">Core Qiskit tutorials with deterministic simulator outputs.</span>
     </span>
   </a>
 </div>
 
 | Project | What it shows | Status |
 | --- | --- | --- |
-| [MusiGAN](/projects/musigan) | Symbolic music generation with sample outputs and provenance notes | Featured |
-| [LendingClub Fairness](/projects/lendingclub) | Loan-risk modeling with a model card, fairness report, and rebuild script | Featured |
-| [Instrument Classification](/projects/instrument-classification) | Audio classification with a pinned environment and report rebuild path | Featured |
-| [Qiskit Hub](/projects/qiskit) | Quantum tutorials with reproducibility notes and deterministic simulator output | Featured |
-| [CaseLaw](/projects/caselaw) | Legal retrieval and summarization reference with supervised and unsupervised notebooks | Reference |
+| [MusiGAN](/projects/musigan) | Symbolic MIDI generation across LSTM, GRU, and GAN baselines | Featured |
+| [LendingClub Fairness](/projects/lendingclub) | Loan-risk modeling plus fairness diagnostics and model-card documentation | Featured |
+| [Instrument Classification](/projects/instrument-classification) | NSynth classification baselines with confusion-matrix review | Featured |
+| [Qiskit Hub](/projects/qiskit) | Qiskit tutorial series with deterministic Bernstein-Vazirani output | Featured |
+| [CaseLaw](/projects/caselaw) | Legal-text summarization experiments in supervised and unsupervised notebooks | Reference |
 
 Browse the full project list and filters at [Projects](/projects/).
 
-The featured technical case studies link back to repo docs, report snapshots, and rebuild scripts so the evidence is traceable instead of implied.
+Each featured page links directly to the repo files behind the results.
 
 <a id="focus"></a>
 ## Focus

@@ -61,8 +61,8 @@ The repo currently includes generated MIDI outputs from all three model tracks:
 | GRU | [`gru_midi.mid`](https://github.com/elsalmi/MusiGAN/blob/master/Output%20midi/GRU%20midi/gru_midi.mid) |
 | GAN | [`gan_final.mid`](https://github.com/elsalmi/MusiGAN/blob/master/Output%20midi/GAN%20midi/gan_final.mid) |
 
-These are raw generated artifacts for technical review. Public reuse still
-depends on the provenance checks listed in Data notes.
+These are raw generated files for technical review. Public reuse still depends
+on the provenance checks listed in Data notes.
 
 ## Links
 
@@ -81,7 +81,7 @@ depends on the provenance checks listed in Data notes.
 - Evaluation is still listening-based until sample scores and symbolic metrics
   are added.
 
-## What changed
+## Recent updates
 
 - Rewrote the page in plain, public-facing language.
 - Consolidated all working resources under one `Links` section.

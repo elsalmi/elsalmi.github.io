@@ -8,14 +8,14 @@ permalink: /projects/caselaw
 
 ## TL;DR
 
-Built a legal-text workflow that combines retrieval-oriented preprocessing with
-both unsupervised and supervised summarization notebooks. The repo includes data
-prep notebooks, model experiments, and a final project report.
+Built a legal-text project with both unsupervised and supervised summarization
+experiments. The repo includes data prep notebooks, model runs, and a final
+report.
 
 ## Problem
 
-Legal text is long and noisy; teams need a way to move from question to relevant
-sources quickly while preserving clarity and traceability.
+Legal text is long and messy. The goal was to move from question to useful case
+material faster while keeping the process readable.
 
 ## Data
 
@@ -27,15 +27,15 @@ sources quickly while preserving clarity and traceability.
 
 ## Method
 
-- Built data-prep and exploratory analysis notebooks to clean and shape legal text.
-- Ran an unsupervised summarization path in `Project51_UnSupervised_Model.ipynb`.
+- Built data-prep and exploratory notebooks to clean and shape legal text.
+- Ran an unsupervised summarization experiment in `Project51_UnSupervised_Model.ipynb`.
 - Trained a supervised seq2seq summarization model in
   `Project51_Supervised_Seq2Seq_Model.ipynb`, with an HTML export committed for review.
 
 ## Results
 
-- The repo contains both supervised and unsupervised summarization artifacts that
-  can be inspected directly.
+- The repo includes supervised and unsupervised summarization outputs that can
+  be reviewed directly.
 - The supervised notebook includes a training-history plot where both training
   and validation loss decline across a 20-epoch run.
 - Project documentation is captured in the committed code report PDF.
@@ -58,13 +58,13 @@ Loss-curve output extracted from the committed supervised seq2seq notebook.
 
 - Retrieval quality can drift quickly with preprocessing changes.
 - Summaries can become misleading without citation and factuality checks.
-- Dataset scope and legal-source rights must be validated before public-facing use.
+- Dataset scope and legal-source rights must be validated before public use.
 
-## What changed
+## Recent updates
 
-- Rewrote the page into a clear notebook-to-results narrative.
+- Rewrote the page around a plain notebook-to-results story.
 - Added a concrete output sample from the supervised model training run.
-- Replaced vague follow-up language with direct links to existing project artifacts.
+- Replaced vague language with direct links to repo files.
 
 ## What I’d improve next
 

@@ -8,9 +8,9 @@ permalink: /projects/qiskit
 
 ## TL;DR
 
-Built a practical quantum-computing tutorial track in Qiskit, from basic circuits
-to algorithm demos. The repo shows runnable notebooks, reference material, and
-deterministic simulator outputs for sanity checks.
+Built a practical Qiskit tutorial set, from basic circuits to algorithm demos.
+The repo contains runnable notebooks, reference material, and deterministic
+simulator outputs for quick sanity checks.
 
 ## Problem
 
@@ -21,7 +21,7 @@ while keeping the work understandable to non-specialists?
 
 - Primary inputs are tutorial circuits and simulator outputs, not a tabular ML dataset.
 - Work is organized around notebook-based experiments in `Tutorials/`.
-- Runtime scope is mainly simulator-backed execution for repeatable learning runs.
+- Runtime scope is mostly simulator-backed execution for repeatable runs.
 
 ## Method
 
@@ -55,11 +55,11 @@ Output extracted from the committed
 - [Bernstein-Vazirani tutorial](https://github.com/elsalmi/qiskit/blob/master/Tutorials/4.%20Bernstein-Vazirani%20Algorithm.ipynb)
 - [Quantum gates cheat sheet](https://github.com/elsalmi/qiskit/blob/master/Tutorials/Quantum%20Gates%20Cheat%20Sheet.pdf)
 
-## Updated evidence
+## Recent updates
 
 - Added [reproducibility notes](https://github.com/elsalmi/qiskit/blob/master/docs/REPRODUCIBILITY.md) with notebook order and environment expectations.
-- Kept the deterministic Bernstein-Vazirani output as the clearest checked result in the tutorial path.
-- Reframed the repo around the four tutorials and archived the scratch notebook outside the core flow.
+- Kept the deterministic Bernstein-Vazirani output as the clearest checked result.
+- Kept the main repo flow centered on the four tutorials.
 
 ## Risks
 
