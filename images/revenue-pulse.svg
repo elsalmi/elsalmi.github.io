@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Revenue Pulse</title>
+  <desc id="desc">Dark red themed thumbnail for Revenue Pulse project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f131f" />
+      <stop offset="100%" stop-color="#1f0f13" />
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7d1f33" />
+      <stop offset="100%" stop-color="#bc2f4a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <rect x="66" y="62" width="1068" height="551" rx="18" fill="none" stroke="#9f2f45" stroke-opacity="0.5" />
+
+  <g stroke="url(#pulse)" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 482 L260 482 L330 360 L410 542 L500 306 L586 482 L704 482 L814 414 L915 482 L1080 482" />
+  </g>
+
+  <g fill="#f2f4f8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="120" y="220" font-size="88" font-weight="700">Revenue Pulse</text>
+    <text x="120" y="286" font-size="33" opacity="0.88">Local-first data pipeline reliability demo</text>
+  </g>
+
+  <g fill="#d7dce6" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24">
+    <text x="120" y="568">DuckDB · dbt · Idempotent runs · Quality gates</text>
+  </g>
+</svg>

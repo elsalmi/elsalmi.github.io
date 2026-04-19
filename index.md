@@ -9,7 +9,7 @@ I build machine-learning and data projects that can survive real review.
 
 This site is a practical record of that work: what problem I took on, what I built, how I measured it, and what I would improve next.
 
-If you want the quick read, start with LendingClub, Instrument Classification, and Qiskit. Those pages are the clearest examples of how I think through model quality, tradeoffs, and delivery.
+If you want the quick read, start with Revenue Pulse, LendingClub, and Instrument Classification. Those pages are the clearest examples of how I think through reliability, model quality, and delivery.
 
 <nav class="home-links" aria-label="Page sections">
   <a href="#projects">Projects</a>
@@ -82,6 +82,13 @@ If you want the quick read, start with LendingClub, Instrument Classification, a
 These are the projects that best represent the work here.
 
 <div class="project-grid" role="list">
+  <a class="project-card" href="/projects/revenue-pulse" role="listitem">
+    <img src="/images/revenue-pulse.svg" alt="Revenue Pulse project thumbnail">
+      <span class="project-card__body">
+      <span class="project-card__title">Revenue Pulse</span>
+      <span class="project-card__meta">Local-first DE pipeline with idempotent runs, quality gates, and KPI marts.</span>
+    </span>
+  </a>
   <a class="project-card" href="/projects/musigan" role="listitem">
     <img src="/images/MusiGAN.JPG" alt="MusiGAN project thumbnail">
       <span class="project-card__body">
@@ -114,6 +121,7 @@ These are the projects that best represent the work here.
 
 | Project | What it shows | Status |
 | --- | --- | --- |
+| [Revenue Pulse](/projects/revenue-pulse) | Idempotent daily revenue pipeline with contract checks and weekly executive KPIs | Featured |
 | [MusiGAN](/projects/musigan) | Symbolic MIDI generation across LSTM, GRU, and GAN baselines | Featured |
 | [LendingClub Fairness](/projects/lendingclub) | Loan-risk modeling plus fairness diagnostics and model-card documentation | Featured |
 | [Instrument Classification](/projects/instrument-classification) | NSynth classification baselines with confusion-matrix review | Featured |
