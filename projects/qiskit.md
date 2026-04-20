@@ -12,6 +12,12 @@ Built a practical Qiskit tutorial set, from basic circuits to algorithm demos.
 The repo contains runnable notebooks, reference material, and deterministic
 simulator outputs for quick sanity checks.
 
+## Impact Snapshot
+
+- Four tutorial notebooks are committed and runnable in a clear learning sequence.
+- Bernstein-Vazirani single-shot output shows deterministic `1.000` probability.
+- Reproducibility notes document notebook order and environment expectations.
+
 ## Problem
 
 How do we demonstrate practical understanding of quantum programming concepts
@@ -39,12 +45,21 @@ while keeping the work understandable to non-specialists?
 - Added reference materials (`Quantum Gates Cheat Sheet.pdf` and project papers)
   to support quick review.
 
+## Reproduce It
+
+```bash
+git clone https://github.com/elsalmi/qiskit.git
+cd qiskit
+jupyter notebook "Tutorials/4. Bernstein-Vazirani Algorithm.ipynb"
+```
+
 ## Output sample
 
-![Bernstein-Vazirani single-shot simulator output at probability 1.000](/images/qiskit-bv-output-sample.png)
+![Bernstein-Vazirani single-shot simulator output at probability 1.000]({{ '/images/qiskit-bv-output-sample.png' | relative_url }})
 
 Output extracted from the committed
 `Tutorials/4. Bernstein-Vazirani Algorithm.ipynb` notebook.
+What this proves: circuit setup and simulator measurement are producing stable expected output.
 
 ## Links
 

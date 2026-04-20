@@ -12,6 +12,12 @@ Built a symbolic music generation project that compares LSTM, GRU, and GAN
 approaches over MIDI note sequences. The project parses MIDI into musical tokens,
 trains sequence models, and converts generated tokens back into playable MIDI.
 
+## Impact Snapshot
+
+- Three model tracks (LSTM, GRU, GAN) each have committed sample outputs.
+- The project keeps data-provenance caveats visible instead of hidden in fine print.
+- Evaluation notes are documented for a repeatable listening-review workflow.
+
 ## Problem
 
 How should we generate short symbolic music sequences while preserving variation
@@ -51,7 +57,17 @@ The main lesson from this project is practical: model architecture matters, but
 symbolic music generation also depends heavily on preprocessing, rhythm
 representation, and how the samples are judged by ear.
 
+## Reproduce It
+
+```bash
+git clone https://github.com/elsalmi/MusiGAN.git
+cd MusiGAN
+ls "Output midi/LSTM midi" "Output midi/GRU midi" "Output midi/GAN midi"
+```
+
 ## Output sample
+
+![MusiGAN output proof map]({{ '/images/musigan-output-proof.svg' | relative_url }})
 
 The repo currently includes generated MIDI outputs from all three model tracks:
 
@@ -63,6 +79,8 @@ The repo currently includes generated MIDI outputs from all three model tracks:
 
 These are raw generated files for technical review. Public reuse still depends
 on the provenance checks listed in Data notes.
+The sample set proves each model path produced inspectable artifacts, even
+before final metric standardization.
 
 ## Links
 

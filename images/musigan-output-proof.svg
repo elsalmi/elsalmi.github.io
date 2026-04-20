@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">MusiGAN Output Proof</title>
+  <desc id="desc">Summary of generated sample outputs committed for LSTM, GRU, and GAN tracks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#121320"/>
+      <stop offset="100%" stop-color="#241016"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <rect x="58" y="54" width="1084" height="592" rx="18" fill="none" stroke="#9b2f46" stroke-opacity=".55"/>
+
+  <g fill="#f4f6fb" font-family="'Segoe UI',Arial,sans-serif">
+    <text x="90" y="130" font-size="50" font-weight="700">MusiGAN: Committed Output Tracks</text>
+    <text x="90" y="173" font-size="25" opacity=".85">Evidence links from repo Output midi/ folders</text>
+  </g>
+
+  <g>
+    <rect x="110" y="235" width="300" height="290" rx="14" fill="#1d2335" stroke="#6a738f" stroke-opacity=".35"/>
+    <rect x="450" y="235" width="300" height="290" rx="14" fill="#1d2335" stroke="#6a738f" stroke-opacity=".35"/>
+    <rect x="790" y="235" width="300" height="290" rx="14" fill="#1d2335" stroke="#6a738f" stroke-opacity=".35"/>
+  </g>
+
+  <g fill="#ffffff" font-family="'Segoe UI',Arial,sans-serif">
+    <text x="220" y="292" font-size="34" font-weight="700">LSTM</text>
+    <text x="560" y="292" font-size="34" font-weight="700">GRU</text>
+    <text x="900" y="292" font-size="34" font-weight="700">GAN</text>
+  </g>
+
+  <g fill="#d4d9e5" font-family="'Segoe UI',Arial,sans-serif" font-size="22">
+    <text x="138" y="342">Output midi/LSTM midi/</text>
+    <text x="138" y="374">lstm_midi.mid</text>
+    <text x="478" y="342">Output midi/GRU midi/</text>
+    <text x="478" y="374">gru_midi.mid</text>
+    <text x="818" y="342">Output midi/GAN midi/</text>
+    <text x="818" y="374">gan_final.mid</text>
+  </g>
+
+  <g fill="#bc3c59" font-family="'Segoe UI',Arial,sans-serif" font-size="20">
+    <text x="140" y="447">Generated sample committed</text>
+    <text x="480" y="447">Generated sample committed</text>
+    <text x="820" y="447">Generated sample committed</text>
+  </g>
+
+  <g fill="#c6ccdb" font-family="'Segoe UI',Arial,sans-serif" font-size="20">
+    <text x="90" y="600">What this proves: each model track has a concrete output artifact available for technical review.</text>
+  </g>
+</svg>

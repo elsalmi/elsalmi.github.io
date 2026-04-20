@@ -76,42 +76,52 @@ If you want the quick read, start with Revenue Pulse, LendingClub, and Instrumen
 }
 </style>
 
+## At A Glance
+
+- [Revenue Pulse]({{ '/projects/revenue-pulse' | relative_url }}): idempotent daily pipeline with contract failures that stop bad data before mart updates.
+- [LendingClub Fairness]({{ '/projects/lendingclub' | relative_url }}): fairness audit with traceable metrics and a report regeneration path.
+- [Instrument Classification]({{ '/projects/instrument-classification' | relative_url }}): measurable baseline (`57.57%` tuned random-forest accuracy) plus confusion-matrix review.
+- [Qiskit Hub]({{ '/projects/qiskit' | relative_url }}): deterministic Bernstein-Vazirani output (`1.000` probability) for reproducible sanity checks.
+
 <a id="projects"></a>
 ## Featured Work
 
 These are the projects that best represent the work here.
+Each one has a short project story, direct links to source artifacts, and at
+least one concrete output sample.
+The goal is simple: let a reviewer verify claims quickly.
 
 <div class="project-grid" role="list">
-  <a class="project-card" href="/projects/revenue-pulse" role="listitem">
-    <img src="/images/revenue-pulse.svg" alt="Revenue Pulse project thumbnail">
+  <a class="project-card" href="{{ '/projects/revenue-pulse' | relative_url }}" role="listitem">
+    <img src="{{ '/images/revenue-pulse.svg' | relative_url }}" alt="Revenue Pulse project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">Revenue Pulse</span>
       <span class="project-card__meta">Local-first DE pipeline with idempotent runs, quality gates, and KPI marts.</span>
     </span>
   </a>
-  <a class="project-card" href="/projects/musigan" role="listitem">
-    <img src="/images/MusiGAN.JPG" alt="MusiGAN project thumbnail">
+  <a class="project-card" href="{{ '/projects/musigan' | relative_url }}" role="listitem">
+    <img src="{{ '/images/musigan-thumb.jpg' | relative_url }}" alt="MusiGAN project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">MusiGAN</span>
       <span class="project-card__meta">Compared LSTM, GRU, and GAN models on symbolic MIDI generation.</span>
     </span>
   </a>
-  <a class="project-card" href="/projects/lendingclub" role="listitem">
-    <img src="/images/LC-Logo-Official-min-1024x418.png" alt="LendingClub Fairness project thumbnail">
+  <a class="project-card" href="{{ '/projects/lendingclub' | relative_url }}" role="listitem">
+    <img src="{{ '/images/LC-Logo-Official-min-1024x418.png' | relative_url }}" alt="LendingClub Fairness project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">LendingClub Fairness</span>
       <span class="project-card__meta">Predicted loan outcomes and audited fairness with traceable metrics.</span>
     </span>
   </a>
-  <a class="project-card" href="/projects/instrument-classification" role="listitem">
-    <img src="/images/instrument_classification.png" alt="Instrument Classification project thumbnail">
+  <a class="project-card" href="{{ '/projects/instrument-classification' | relative_url }}" role="listitem">
+    <img src="{{ '/images/instrument_classification.png' | relative_url }}" alt="Instrument Classification project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">Instrument Classification</span>
       <span class="project-card__meta">Built NSynth baselines, confusion-matrix analysis, and reproducible reporting.</span>
     </span>
   </a>
-  <a class="project-card" href="/projects/qiskit" role="listitem">
-    <img src="/images/qiskit.jpg" alt="Qiskit Hub project thumbnail">
+  <a class="project-card" href="{{ '/projects/qiskit' | relative_url }}" role="listitem">
+    <img src="{{ '/images/qiskit.jpg' | relative_url }}" alt="Qiskit Hub project thumbnail">
       <span class="project-card__body">
       <span class="project-card__title">Qiskit Hub</span>
       <span class="project-card__meta">Core Qiskit tutorials with deterministic simulator outputs.</span>
@@ -121,14 +131,14 @@ These are the projects that best represent the work here.
 
 | Project | What it shows | Status |
 | --- | --- | --- |
-| [Revenue Pulse](/projects/revenue-pulse) | Idempotent daily revenue pipeline with contract checks and weekly executive KPIs | Featured |
-| [MusiGAN](/projects/musigan) | Symbolic MIDI generation across LSTM, GRU, and GAN baselines | Featured |
-| [LendingClub Fairness](/projects/lendingclub) | Loan-risk modeling plus fairness diagnostics and model-card documentation | Featured |
-| [Instrument Classification](/projects/instrument-classification) | NSynth classification baselines with confusion-matrix review | Featured |
-| [Qiskit Hub](/projects/qiskit) | Qiskit tutorial series with deterministic Bernstein-Vazirani output | Featured |
-| [CaseLaw](/projects/caselaw) | Legal-text summarization experiments in supervised and unsupervised notebooks | Reference |
+| [Revenue Pulse]({{ '/projects/revenue-pulse' | relative_url }}) | Daily pipeline with contract gating and weekly executive KPI mart | Featured |
+| [MusiGAN]({{ '/projects/musigan' | relative_url }}) | Side-by-side LSTM/GRU/GAN output artifacts for symbolic generation review | Featured |
+| [LendingClub Fairness]({{ '/projects/lendingclub' | relative_url }}) | Loan-risk modeling with fairness diagnostics and documented mitigation effects | Featured |
+| [Instrument Classification]({{ '/projects/instrument-classification' | relative_url }}) | NSynth baseline accuracy plus confusion-matrix evidence and rebuild path | Featured |
+| [Qiskit Hub]({{ '/projects/qiskit' | relative_url }}) | Four runnable tutorials with deterministic Bernstein-Vazirani output | Featured |
+| [CaseLaw]({{ '/projects/caselaw' | relative_url }}) | Legal summarization experiments with supervised and unsupervised outputs | Reference |
 
-Browse the full project list and filters at [Projects](/projects/).
+Browse the full project list and filters at [Projects]({{ '/projects/' | relative_url }}).
 
 Each featured page links directly to the repo files behind the results.
 

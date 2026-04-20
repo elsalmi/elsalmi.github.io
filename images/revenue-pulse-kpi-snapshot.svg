@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Revenue Pulse KPI Snapshot</title>
+  <desc id="desc">Weekly KPI snapshot from Revenue Pulse output.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1422"/>
+      <stop offset="100%" stop-color="#21131a"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#6f2234"/>
+      <stop offset="100%" stop-color="#d14663"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <rect x="56" y="52" width="1088" height="596" rx="16" fill="none" stroke="#9b2f46" stroke-opacity=".55"/>
+
+  <g fill="#f4f6fb" font-family="'Segoe UI',Arial,sans-serif">
+    <text x="90" y="130" font-size="52" font-weight="700">Revenue Pulse: Weekly Snapshot</text>
+    <text x="90" y="174" font-size="26" opacity=".85">Source: artifacts/kpi_sample.csv, week_start = 2026-01-26</text>
+  </g>
+
+  <g stroke="#28334f" stroke-width="2">
+    <line x1="90" y1="540" x2="1110" y2="540"/>
+    <line x1="90" y1="260" x2="1110" y2="260" opacity=".45"/>
+  </g>
+
+  <g fill="url(#bar)">
+    <rect x="170" y="350" width="120" height="190" rx="10"/>
+    <rect x="380" y="350" width="120" height="190" rx="10"/>
+    <rect x="590" y="418" width="120" height="122" rx="10"/>
+    <rect x="800" y="300" width="120" height="240" rx="10"/>
+  </g>
+
+  <g fill="#d9deea" font-family="'Segoe UI',Arial,sans-serif" font-size="22">
+    <text x="151" y="582">Net MRR</text>
+    <text x="353" y="582">Closing MRR</text>
+    <text x="587" y="582">Failed Pay%</text>
+    <text x="807" y="582">Active Accts</text>
+  </g>
+
+  <g fill="#ffffff" font-family="'Segoe UI',Arial,sans-serif" font-size="27" font-weight="700" text-anchor="middle">
+    <text x="230" y="336">50,000</text>
+    <text x="440" y="336">50,000</text>
+    <text x="650" y="404">4.64%</text>
+    <text x="860" y="286">32</text>
+  </g>
+
+  <g fill="#c6ccdb" font-family="'Segoe UI',Arial,sans-serif" font-size="20">
+    <text x="90" y="625">What this proves: the mart is populated and outputs executive KPIs in one queryable table.</text>
+  </g>
+</svg>

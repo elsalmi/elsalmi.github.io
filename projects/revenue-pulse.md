@@ -13,6 +13,12 @@ SaaS billing and product events into reliable weekly revenue KPIs. It is built
 to show operational discipline: idempotent reruns, explicit quality gates, and
 clear backfill behavior.
 
+## Impact Snapshot
+
+- Pipeline surfaces weekly revenue KPIs from one gold mart query (`gold.mart_exec_weekly`).
+- Quality gates fail early on blank required fields and duplicate `event_id`.
+- Daily rerun for the same date keeps KPI outputs stable (idempotency check).
+
 ## Problem
 
 Revenue reporting breaks when pipelines are hard to rerun, late data arrives,
@@ -45,7 +51,19 @@ small pipeline that handles those failure modes directly.
 - Duplicate-event drill: pipeline fails at uniqueness gate as expected.
 - Idempotency check: rerunning the same date produced unchanged weekly KPI hash.
 
+## Reproduce It
+
+```bash
+git clone https://github.com/elsalmi/revenue-pulse.git
+cd revenue-pulse
+make bootstrap
+make seed
+make run DATE=2026-01-30
+```
+
 ## Output sample
+
+![Revenue Pulse KPI snapshot]({{ '/images/revenue-pulse-kpi-snapshot.svg' | relative_url }})
 
 Recent weekly sample from the generated mart:
 
@@ -53,9 +71,15 @@ Recent weekly sample from the generated mart:
 | --- | --- | --- | --- | --- |
 | `2026-01-26` | `50000` | `50000` | `32` | `0.0464` |
 
+This proves the pipeline produces queryable executive metrics from the same
+run path used for quality checks.
+
 ## Links
 
 - [Source repo](https://github.com/elsalmi/revenue-pulse)
+- [README](https://github.com/elsalmi/revenue-pulse/blob/main/README.md)
+- [Runbook](https://github.com/elsalmi/revenue-pulse/blob/main/docs/RUNBOOK.md)
+- [CI workflow](https://github.com/elsalmi/revenue-pulse/blob/main/.github/workflows/ci.yml)
 
 ## Risks
 

@@ -14,6 +14,12 @@ spectrogram-style images. The best measured baseline so far is a random forest
 at `54.20%` accuracy, improved to `57.57%` with randomized search in the
 supervised-learning notebook.
 
+## Impact Snapshot
+
+- Tuned random-forest baseline reached `57.57%` accuracy in committed notebook output.
+- Confusion matrix makes class-level error patterns visible before demo work.
+- Rebuild script and pinned environment reduce “notebook-only” reproducibility risk.
+
 ## Problem
 
 Given a short isolated note, predict the instrument family and make model
@@ -50,14 +56,23 @@ and practical quality targets.
 The project is not finished, but it now has a clear baseline, known gaps, and a
 concrete route from notebook experiment to a small demo.
 
+## Reproduce It
+
+```bash
+git clone https://github.com/elsalmi/Instrument-Classificiation-.git
+cd Instrument-Classificiation-
+python scripts/rebuild_report.py
+```
+
 ## Output sample
 
-![Random-forest confusion matrix after randomized search](/images/instrument-rf-confusion-matrix-tuned.png)
+![Random-forest confusion matrix after randomized search]({{ '/images/instrument-rf-confusion-matrix-tuned.png' | relative_url }})
 
 This confusion matrix is pulled from the randomized-search run in
 `4.SupervisedLearning.ipynb`. The strongest diagonal classes include `string`
 (`0.88`) and `vocal` (`0.61`), while `bass` is still frequently confused with
 `mallet` (`0.24` in that row).
+What this proves: the baseline is useful, but confusion pockets define where model iteration should focus.
 
 ## Links
 

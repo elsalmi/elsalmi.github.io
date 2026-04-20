@@ -13,6 +13,12 @@ whether outcomes differed across ZIP-derived proxy groups. The repo includes a
 model card, data notes, and a fairness report based on original notebook
 metrics.
 
+## Impact Snapshot
+
+- Logistic-regression fairness snapshot is documented with traceable metric values.
+- Reweighing results show reduced mean outcome difference in train and test splits.
+- Model card + fairness report + rebuild script are all committed in repo.
+
 ## Problem
 
 Credit risk models can look strong overall while still producing uneven errors
@@ -38,11 +44,20 @@ hiding behind one accuracy number.
 - Reported reweighing snapshot: training mean outcome difference moved from `-0.017565` to `0.000000`; test mean outcome difference moved from `-0.019698` to `-0.002036`.
 - Reported random forest precision was `0.913286`, with the project framed around high-precision ranked loan selection rather than automated lending deployment.
 
+## Reproduce It
+
+```bash
+git clone https://github.com/elsalmi/LendingClub.git
+cd LendingClub
+python scripts/build_fairness_report.py
+```
+
 ## Output sample
 
-![Random forest probability density by class](/images/lendingclub-density-fully-paid-vs-chargedoff.png)
+![Random forest probability density by class]({{ '/images/lendingclub-density-fully-paid-vs-chargedoff.png' | relative_url }})
 
 This density plot is a direct notebook output. It shows why ranking by predicted repayment probability can separate many `Fully Paid` loans from `Charged Off` loans, while still leaving overlap that requires threshold and fairness checks.
+What this proves: model ranking separates outcomes, but thresholding and fairness auditing are still essential.
 
 ## Links
 
